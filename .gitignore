@@ -1,0 +1,20 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Python cache
+*.pyc
+
+# Model weights and checkpoints
+models/distilbert-base-uncased/
+models/trained/
+models/template_aware/
+
+# Generated datasets
+data/processed/
+
+# Temporary backup files
+*_backup.py
+*_before_template_metadata.json

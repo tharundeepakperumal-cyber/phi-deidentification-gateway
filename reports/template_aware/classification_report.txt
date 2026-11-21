@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+       EMAIL       1.00      1.00      1.00       250
+         MRN       1.00      1.00      1.00       250
+        NAME       1.00      1.00      1.00       250
+       PHONE       1.00      1.00      1.00       250
+
+   micro avg       1.00      1.00      1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
