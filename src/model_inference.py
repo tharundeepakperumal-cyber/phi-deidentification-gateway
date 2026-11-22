@@ -1,4 +1,5 @@
 
+import os
 import re
 import threading
 from pathlib import Path
@@ -14,6 +15,9 @@ MODEL_PATH = (
     / "models"
     / "template_aware"
 )
+
+HF_MODEL_ID = os.getenv("HF_MODEL_ID")
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 MAX_LENGTH = 512
 STRIDE = 64
@@ -49,18 +53,26 @@ def load_model():
 
     with _model_lock:
         if _model is None:
-            if not MODEL_PATH.exists():
-                raise FileNotFoundError(
-                    f"Model directory not found: {MODEL_PATH}"
-                )
+            if HF_MODEL_ID:
+                model_source = HF_MODEL_ID
+                model_token = HF_TOKEN
+            else:
+                if not MODEL_PATH.exists():
+                    raise FileNotFoundError(
+                        f"Model directory not found: {MODEL_PATH}"
+                    )
+                model_source = str(MODEL_PATH)
+                model_token = None
 
             _tokenizer = AutoTokenizer.from_pretrained(
-                str(MODEL_PATH),
+                model_source,
                 use_fast=True,
+                token=model_token,
             )
 
             _model = AutoModelForTokenClassification.from_pretrained(
-                str(MODEL_PATH)
+                model_source,
+                token=model_token,
             )
 
             _model.to(DEVICE)
