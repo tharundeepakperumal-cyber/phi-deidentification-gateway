@@ -10,7 +10,6 @@ __pycache__/
 # Model weights and checkpoints
 models/distilbert-base-uncased/
 models/trained/
-models/template_aware/
 
 # Generated datasets
 data/processed/
