@@ -1,0 +1,143 @@
+{
+    "dataset": "data/raw/synthetic_clinical_notes.json",
+    "evaluation_type": "Exact character-span entity evaluation",
+    "validation_records": 250,
+    "validation_template_ids": [
+        6,
+        7
+    ],
+    "model": {
+        "PERSON": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "PHONE": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "EMAIL": {
+            "tp": 249,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.996,
+            "recall": 0.996,
+            "f1": 0.996
+        },
+        "MRN": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "OVERALL_MICRO": {
+            "tp": 999,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.999,
+            "recall": 0.999,
+            "f1": 0.999
+        }
+    },
+    "regex": {
+        "PERSON": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 250,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        },
+        "PHONE": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "EMAIL": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "MRN": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "OVERALL_MICRO": {
+            "tp": 750,
+            "fp": 0,
+            "fn": 250,
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.857143
+        }
+    },
+    "combined_pipeline": {
+        "PERSON": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "PHONE": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "EMAIL": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "MRN": {
+            "tp": 250,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "OVERALL_MICRO": {
+            "tp": 1000,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    "notes": [
+        "Only validation templates 6 and 7 were evaluated.",
+        "Metrics use exact entity type and character-span matching.",
+        "Model-only predictions exclude regex corrections.",
+        "Regex-only predictions exclude DistilBERT.",
+        "Combined results use the production extract_entities pipeline.",
+        "Validation data was also used for model selection during training; these results are not independent test-set results."
+    ]
+}
