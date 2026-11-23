@@ -66,7 +66,36 @@ def home():
 def health_check():
     return {"status": "healthy"}
 
+@app.get("/model-status")
+def model_status():
+    from pathlib import Path
 
+    model_path = (
+        Path(__file__).resolve().parent.parent
+        / "models"
+        / "template_aware"
+    )
+
+    required_files = [
+        "config.json",
+        "model.safetensors",
+        "tokenizer.json",
+        "tokenizer_config.json",
+    ]
+
+    files = {}
+
+    for filename in required_files:
+        path = model_path / filename
+        files[filename] = {
+            "exists": path.is_file(),
+            "size_bytes": path.stat().st_size if path.is_file() else 0,
+        }
+
+    return {
+        "model_directory_exists": model_path.is_dir(),
+        "files": files,
+    }
 
 @app.post(
     "/deidentify",
