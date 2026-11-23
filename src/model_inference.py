@@ -81,6 +81,32 @@ def load_model():
     return _tokenizer, _model
 
 
+def resolve_overlapping_entities(entities):
+    """Resolve overlapping entities using priority and span length."""
+
+    entities = sorted(
+        entities,
+        key=lambda item: (
+            -item["priority"],
+            -(item["end"] - item["start"]),
+            item["start"],
+        ),
+    )
+
+    resolved = []
+
+    for entity in entities:
+        overlaps = any(
+            entity["start"] < existing["end"]
+            and entity["end"] > existing["start"]
+            for existing in resolved
+        )
+
+        if not overlaps:
+            resolved.append(entity)
+
+    return sorted(resolved, key=lambda item: item["start"])
+
 def extract_entities(text):
     tokenizer, model = load_model()
 
@@ -205,24 +231,9 @@ def extract_entities(text):
             })
 
 
-    # Prefer regex matches when overlapping model predictions occur.
-    entities.sort(
-        key=lambda item: (
-            item["start"],
-            -item["priority"],
-            -(item["end"] - item["start"]),
-        )
-    )
+     # Resolve overlapping model and regex predictions.
 
-    resolved = []
-
-    for entity in entities:
-        if not resolved or entity["start"] >= resolved[-1]["end"]:
-            resolved.append(entity)
-        elif entity["priority"] > resolved[-1]["priority"]:
-            resolved[-1] = entity
-
-    return resolved
+    return resolve_overlapping_entities(entities)
 
 
 def deidentify_with_model(text):
