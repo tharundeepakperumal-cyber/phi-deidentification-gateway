@@ -5,6 +5,8 @@ import threading
 from pathlib import Path
 
 import torch
+
+torch.set_num_threads(1)
 from transformers import (
     AutoTokenizer,
     AutoModelForTokenClassification,
@@ -73,6 +75,8 @@ def load_model():
             _model = AutoModelForTokenClassification.from_pretrained(
                 model_source,
                 token=model_token,
+                low_cpu_mem_usage=True,
+                use_safetensors=True,
             )
 
             _model.to(DEVICE)
