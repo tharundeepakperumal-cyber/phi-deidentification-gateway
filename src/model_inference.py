@@ -29,8 +29,12 @@ DEVICE = torch.device(
 )
 
 _tokenizer = None
+
 _model = None
+
 _model_lock = threading.Lock()
+
+_inference_lock = threading.Lock()
 
 CORRECTION_PATTERNS = {
     "EMAIL": re.compile(
@@ -112,6 +116,11 @@ def resolve_overlapping_entities(entities):
     return sorted(resolved, key=lambda item: item["start"])
 
 def extract_entities(text):
+    with _inference_lock:
+        return _extract_entities_unlocked(text)
+
+
+def _extract_entities_unlocked(text):
     tokenizer, model = load_model()
 
     encoding = tokenizer(
@@ -128,36 +137,37 @@ def extract_entities(text):
     offsets = encoding.pop("offset_mapping")
     encoding.pop("overflow_to_sample_mapping", None)
 
-    inputs = {
-        key: value.to(DEVICE)
-        for key, value in encoding.items()
-    }
-
-    with torch.inference_mode():
-        outputs = model(**inputs)
-
-    predictions = torch.argmax(
-        outputs.logits,
-        dim=-1,
-    ).cpu().tolist()
-
+    chunk_count = encoding["input_ids"].shape[0]
     entities = []
 
-    for chunk_predictions, chunk_offsets in zip(
-        predictions,
-        offsets.tolist(),
-    ):
+    for chunk_index in range(chunk_count):
+        chunk_inputs = {
+            key: value[chunk_index:chunk_index + 1].to(DEVICE)
+            for key, value in encoding.items()
+        }
+
+        chunk_offsets = offsets[chunk_index].tolist()
+
+        with torch.inference_mode():
+            outputs = model(**chunk_inputs)
+            predictions = torch.argmax(
+                outputs.logits,
+                dim=-1,
+            )[0].cpu().tolist()
+
+        del outputs
+        del chunk_inputs
+
         current = None
 
         def flush():
             nonlocal current
-
             if current is not None:
                 entities.append(current)
                 current = None
 
         for prediction, (start, end) in zip(
-            chunk_predictions,
+            predictions,
             chunk_offsets,
         ):
             if start == end:
@@ -166,11 +176,7 @@ def extract_entities(text):
 
             label = model.config.id2label[prediction]
 
-            if label == "O":
-                flush()
-                continue
-
-            if "-" not in label:
+            if label == "O" or "-" not in label:
                 flush()
                 continue
 
@@ -204,12 +210,10 @@ def extract_entities(text):
                     current["text"] = text[
                         current["start"]:end
                     ]
-
             else:
                 flush()
 
         flush()
-
 
     # Remove invalid EMAIL predictions from the model.
     entities = [
@@ -234,10 +238,9 @@ def extract_entities(text):
                 "priority": 2,
             })
 
-
-     # Resolve overlapping model and regex predictions.
-
+    # Resolve overlapping model and regex predictions.
     return resolve_overlapping_entities(entities)
+
 
 
 def deidentify_with_model(text):
