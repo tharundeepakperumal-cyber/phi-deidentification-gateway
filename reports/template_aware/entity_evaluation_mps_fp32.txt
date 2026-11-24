@@ -1,0 +1,139 @@
+PHI GUARDIAN ENTITY EVALUATION
+=======================================================
+Validation records: 250
+Validation templates: 6, 7
+Matching: Exact entity type and character span
+
+=======================================================
+DISTILBERT ONLY
+=======================================================
+
+PERSON
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+PHONE
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+EMAIL
+  tp: 249
+  fp: 1
+  fn: 1
+  precision: 0.996
+  recall: 0.996
+  f1: 0.996
+
+MRN
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+OVERALL_MICRO
+  tp: 999
+  fp: 1
+  fn: 1
+  precision: 0.999
+  recall: 0.999
+  f1: 0.999
+
+=======================================================
+REGEX ONLY
+=======================================================
+
+PERSON
+  tp: 0
+  fp: 0
+  fn: 250
+  precision: 0.0
+  recall: 0.0
+  f1: 0.0
+
+PHONE
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+EMAIL
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+MRN
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+OVERALL_MICRO
+  tp: 750
+  fp: 0
+  fn: 250
+  precision: 1.0
+  recall: 0.75
+  f1: 0.857143
+
+=======================================================
+COMBINED PIPELINE
+=======================================================
+
+PERSON
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+PHONE
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+EMAIL
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+MRN
+  tp: 250
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+OVERALL_MICRO
+  tp: 1000
+  fp: 0
+  fn: 0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+
+Evaluation completed.

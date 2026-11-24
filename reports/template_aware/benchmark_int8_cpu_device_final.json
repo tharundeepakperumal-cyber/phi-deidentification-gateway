@@ -1,0 +1,48 @@
+{
+    "mode": "int8",
+    "device": "cpu",
+    "torch_version": "2.15.0",
+    "cpu_threads": 1,
+    "validation_records": 250,
+    "repeats": 10,
+    "warmup_records": 20,
+    "measured_records": 2500,
+    "tokenizer_load_seconds": 0.01957445799780544,
+    "model_load_seconds": 1.121933332993649,
+    "quantization_seconds": 0.48037966700212564,
+    "quantized_linear_layers": 37,
+    "total_inference_seconds": 128.21938270800456,
+    "throughput_records_per_second": 19.49783213114727,
+    "p50_latency_ms": 49.93770799774211,
+    "p95_latency_ms": 56.74466700293124,
+    "mean_latency_ms": 51.28525138979312,
+    "first_pass_predicted_entities": 1001,
+    "prediction_signature": "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+    "pass_prediction_signatures": [
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516",
+        "3901c5f0c90510a6ce1d3b088b4096ba57db7d203f6dabef69e19dd99e288516"
+    ],
+    "prediction_consistent_across_passes": true,
+    "baseline_rss_mb": 233.859375,
+    "rss_after_model_load_mb": 381.09375,
+    "rss_after_quantization_mb": 552.765625,
+    "rss_after_warmup_mb": 585.09375,
+    "final_rss_mb": 428.203125,
+    "sampled_peak_process_rss_mb": 799.578125,
+    "device_memory_after_load": {
+        "current_allocated_memory_mb": 0.0,
+        "driver_allocated_memory_mb": 0.453125
+    },
+    "device_memory_final": {
+        "current_allocated_memory_mb": 0.0,
+        "driver_allocated_memory_mb": 0.453125
+    }
+}

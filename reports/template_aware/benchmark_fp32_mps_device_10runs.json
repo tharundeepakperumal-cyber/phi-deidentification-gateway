@@ -1,0 +1,31 @@
+{
+    "mode": "fp32",
+    "device": "mps",
+    "torch_version": "2.15.0",
+    "cpu_threads": 1,
+    "validation_records": 250,
+    "repeats": 10,
+    "warmup_records": 20,
+    "measured_records": 2500,
+    "tokenizer_load_seconds": 0.018819249991793185,
+    "model_load_seconds": 1.0457827920035925,
+    "total_inference_seconds": 12.83775229100138,
+    "throughput_records_per_second": 194.73813977173984,
+    "p50_latency_ms": 5.140791996382177,
+    "p95_latency_ms": 5.235457996604964,
+    "mean_latency_ms": 5.13424116721726,
+    "first_pass_predicted_entities": 1000,
+    "prediction_signature": "7a5aa925dbd1966b7a0e99ffba8ce5a8b8b7c4cbbdd66487e8c270e71c99b69d",
+    "baseline_rss_mb": 233.6875,
+    "rss_after_model_load_mb": 511.9375,
+    "final_rss_mb": 512.59375,
+    "sampled_peak_rss_mb": 512.59375,
+    "device_memory_after_load": {
+        "current_allocated_memory_mb": 253.764892578125,
+        "driver_allocated_memory_mb": 1032.71875
+    },
+    "device_memory_final": {
+        "current_allocated_memory_mb": 253.764892578125,
+        "driver_allocated_memory_mb": 1032.703125
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "evaluation_type": "Exact character-span entity evaluation",
+    "independent_test_records": 200,
+    "independent_test_templates": [
+        8,
+        9,
+        10,
+        11
+    ],
+    "quantized_linear_layers": 37,
+    "results": {
+        "FP32 CPU MODEL ONLY": {
+            "PERSON": {
+                "tp": 200,
+                "fp": 3,
+                "fn": 0,
+                "precision": 0.985222,
+                "recall": 1.0,
+                "f1": 0.992556
+            },
+            "PHONE": {
+                "tp": 196,
+                "fp": 4,
+                "fn": 4,
+                "precision": 0.98,
+                "recall": 0.98,
+                "f1": 0.98
+            },
+            "EMAIL": {
+                "tp": 200,
+                "fp": 13,
+                "fn": 0,
+                "precision": 0.938967,
+                "recall": 1.0,
+                "f1": 0.968523
+            },
+            "MRN": {
+                "tp": 200,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "OVERALL_MICRO": {
+                "tp": 796,
+                "fp": 20,
+                "fn": 4,
+                "precision": 0.97549,
+                "recall": 0.995,
+                "f1": 0.985149
+            }
+        },
+        "INT8 CPU MODEL ONLY": {
+            "PERSON": {
+                "tp": 200,
+                "fp": 2,
+                "fn": 0,
+                "precision": 0.990099,
+                "recall": 1.0,
+                "f1": 0.995025
+            },
+            "PHONE": {
+                "tp": 188,
+                "fp": 16,
+                "fn": 12,
+                "precision": 0.921569,
+                "recall": 0.94,
+                "f1": 0.930693
+            },
+            "EMAIL": {
+                "tp": 198,
+                "fp": 21,
+                "fn": 2,
+                "precision": 0.90411,
+                "recall": 0.99,
+                "f1": 0.945107
+            },
+            "MRN": {
+                "tp": 200,
+                "fp": 4,
+                "fn": 0,
+                "precision": 0.980392,
+                "recall": 1.0,
+                "f1": 0.990099
+            },
+            "OVERALL_MICRO": {
+                "tp": 786,
+                "fp": 43,
+                "fn": 14,
+                "precision": 0.94813,
+                "recall": 0.9825,
+                "f1": 0.965009
+            }
+        },
+        "FP32 CPU + REGEX": {
+            "PERSON": {
+                "tp": 200,
+                "fp": 3,
+                "fn": 0,
+                "precision": 0.985222,
+                "recall": 1.0,
+                "f1": 0.992556
+            },
+            "PHONE": {
+                "tp": 200,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "EMAIL": {
+                "tp": 200,
+                "fp": 9,
+                "fn": 0,
+                "precision": 0.956938,
+                "recall": 1.0,
+                "f1": 0.977995
+            },
+            "MRN": {
+                "tp": 200,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "OVERALL_MICRO": {
+                "tp": 800,
+                "fp": 12,
+                "fn": 0,
+                "precision": 0.985222,
+                "recall": 1.0,
+                "f1": 0.992556
+            }
+        },
+        "INT8 CPU + REGEX": {
+            "PERSON": {
+                "tp": 200,
+                "fp": 2,
+                "fn": 0,
+                "precision": 0.990099,
+                "recall": 1.0,
+                "f1": 0.995025
+            },
+            "PHONE": {
+                "tp": 200,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "EMAIL": {
+                "tp": 200,
+                "fp": 11,
+                "fn": 0,
+                "precision": 0.947867,
+                "recall": 1.0,
+                "f1": 0.973236
+            },
+            "MRN": {
+                "tp": 200,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "OVERALL_MICRO": {
+                "tp": 800,
+                "fp": 13,
+                "fn": 0,
+                "precision": 0.98401,
+                "recall": 1.0,
+                "f1": 0.99194
+            }
+        }
+    },
+    "note": "Independent synthetic test dataset using templates 8-11."
+}

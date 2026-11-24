@@ -92,7 +92,7 @@ def get_gold_entities(text, annotations):
 
 
 def predict_model_only(text, tokenizer, model):
-    """Run DistilBERT without applying regex corrections."""
+    """Run DistilBERT sequentially without regex corrections."""
 
     encoding = tokenizer(
         text,
@@ -108,25 +108,25 @@ def predict_model_only(text, tokenizer, model):
     offsets = encoding.pop("offset_mapping")
     encoding.pop("overflow_to_sample_mapping", None)
 
-    inputs = {
-        key: value.to(DEVICE)
-        for key, value in encoding.items()
-    }
-
-    with torch.inference_mode():
-        outputs = model(**inputs)
-
-    predictions = torch.argmax(
-        outputs.logits,
-        dim=-1,
-    ).cpu().tolist()
-
     entities = set()
 
-    for chunk_predictions, chunk_offsets in zip(
-        predictions,
-        offsets.tolist(),
-    ):
+    # Process one overflow chunk at a time.
+    for chunk_index in range(offsets.shape[0]):
+
+        chunk_inputs = {
+            key: value[chunk_index:chunk_index + 1].to(DEVICE)
+            for key, value in encoding.items()
+        }
+
+        with torch.inference_mode():
+            outputs = model(**chunk_inputs)
+
+            chunk_predictions = torch.argmax(
+                outputs.logits[0],
+                dim=-1,
+            ).cpu().tolist()
+
+        chunk_offsets = offsets[chunk_index].tolist()
 
         current = None
 
@@ -166,6 +166,7 @@ def predict_model_only(text, tokenizer, model):
 
             if prefix == "B":
                 flush()
+
                 current = {
                     "label": LABEL_MAP[entity_type],
                     "start": start,
@@ -179,11 +180,13 @@ def predict_model_only(text, tokenizer, model):
                     or current["label"] != LABEL_MAP[entity_type]
                 ):
                     flush()
+
                     current = {
                         "label": LABEL_MAP[entity_type],
                         "start": start,
                         "end": end,
                     }
+
                 else:
                     current["end"] = end
 
@@ -192,8 +195,11 @@ def predict_model_only(text, tokenizer, model):
 
         flush()
 
-    return entities
+        # Release chunk-specific inference outputs.
+        del outputs
+        del chunk_inputs
 
+    return entities
 
 def predict_regex_only(text):
     """Run deterministic regex detection without DistilBERT."""

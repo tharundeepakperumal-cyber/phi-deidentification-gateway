@@ -18,4 +18,3 @@ data/processed/
 *_backup.py
 *_before_template_metadata.json
 src/evaluate_model.py.backup
-src/evaluate_model.py.backup

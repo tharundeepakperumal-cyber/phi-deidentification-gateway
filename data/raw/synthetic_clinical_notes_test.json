@@ -1,0 +1,2002 @@
+[
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Aarav A. Sharma was discharged in stable condition. The admission was related to acute bronchitis. For post-discharge coordination, contact the patient at +91 800 000 0000 or send correspondence to aarav.sharma0@testmail.example. The hospital file reference is MRN-83000000. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Aarav A. Sharma",
+      "PHONE": "+91 800 000 0000",
+      "EMAIL": "aarav.sharma0@testmail.example",
+      "MRN": "MRN-83000000"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Vivaan A. Pillai was discharged in stable condition. The admission was related to viral gastroenteritis. For post-discharge coordination, contact the patient at +91 800 000 0001 or send correspondence to vivaan.pillai1@testmail.example. The hospital file reference is MRN-83000001. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Vivaan A. Pillai",
+      "PHONE": "+91 800 000 0001",
+      "EMAIL": "vivaan.pillai1@testmail.example",
+      "MRN": "MRN-83000001"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Aditya A. Bose was discharged in stable condition. The admission was related to a mild respiratory infection. For post-discharge coordination, contact the patient at +91 800 000 0002 or send correspondence to aditya.bose2@testmail.example. The hospital file reference is MRN-83000002. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Aditya A. Bose",
+      "PHONE": "+91 800 000 0002",
+      "EMAIL": "aditya.bose2@testmail.example",
+      "MRN": "MRN-83000002"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Vihaan A. Shetty was discharged in stable condition. The admission was related to dehydration. For post-discharge coordination, contact the patient at +91 800 000 0003 or send correspondence to vihaan.shetty3@testmail.example. The hospital file reference is MRN-83000003. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Vihaan A. Shetty",
+      "PHONE": "+91 800 000 0003",
+      "EMAIL": "vihaan.shetty3@testmail.example",
+      "MRN": "MRN-83000003"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Arjun A. Fernandes was discharged in stable condition. The admission was related to seasonal allergic rhinitis. For post-discharge coordination, contact the patient at +91 800 000 0004 or send correspondence to arjun.fernandes4@testmail.example. The hospital file reference is MRN-83000004. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Arjun A. Fernandes",
+      "PHONE": "+91 800 000 0004",
+      "EMAIL": "arjun.fernandes4@testmail.example",
+      "MRN": "MRN-83000004"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Reyansh A. Subramanian was discharged in stable condition. The admission was related to a urinary tract infection. For post-discharge coordination, contact the patient at +91 800 000 0005 or send correspondence to reyansh.subramanian5@testmail.example. The hospital file reference is MRN-83000005. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Reyansh A. Subramanian",
+      "PHONE": "+91 800 000 0005",
+      "EMAIL": "reyansh.subramanian5@testmail.example",
+      "MRN": "MRN-83000005"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ayaan A. Pawar was discharged in stable condition. The admission was related to migraine. For post-discharge coordination, contact the patient at +91 800 000 0006 or send correspondence to ayaan.pawar6@testmail.example. The hospital file reference is MRN-83000006. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ayaan A. Pawar",
+      "PHONE": "+91 800 000 0006",
+      "EMAIL": "ayaan.pawar6@testmail.example",
+      "MRN": "MRN-83000006"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Krishna A. Paul was discharged in stable condition. The admission was related to muscle strain. For post-discharge coordination, contact the patient at +91 800 000 0007 or send correspondence to krishna.paul7@testmail.example. The hospital file reference is MRN-83000007. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Krishna A. Paul",
+      "PHONE": "+91 800 000 0007",
+      "EMAIL": "krishna.paul7@testmail.example",
+      "MRN": "MRN-83000007"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ishaan A. Menon was discharged in stable condition. The admission was related to hypertension review. For post-discharge coordination, contact the patient at +91 800 000 0008 or send correspondence to ishaan.menon8@testmail.example. The hospital file reference is MRN-83000008. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ishaan A. Menon",
+      "PHONE": "+91 800 000 0008",
+      "EMAIL": "ishaan.menon8@testmail.example",
+      "MRN": "MRN-83000008"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Shaurya A. Kulkarni was discharged in stable condition. The admission was related to type two diabetes review. For post-discharge coordination, contact the patient at +91 800 000 0009 or send correspondence to shaurya.kulkarni9@testmail.example. The hospital file reference is MRN-83000009. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Shaurya A. Kulkarni",
+      "PHONE": "+91 800 000 0009",
+      "EMAIL": "shaurya.kulkarni9@testmail.example",
+      "MRN": "MRN-83000009"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Atharv A. Bhat was discharged in stable condition. The admission was related to acute bronchitis. For post-discharge coordination, contact the patient at +91 800 000 0010 or send correspondence to atharv.bhat10@testmail.example. The hospital file reference is MRN-83000010. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Atharv A. Bhat",
+      "PHONE": "+91 800 000 0010",
+      "EMAIL": "atharv.bhat10@testmail.example",
+      "MRN": "MRN-83000010"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Dhruv A. Thomas was discharged in stable condition. The admission was related to viral gastroenteritis. For post-discharge coordination, contact the patient at +91 800 000 0011 or send correspondence to dhruv.thomas11@testmail.example. The hospital file reference is MRN-83000011. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Dhruv A. Thomas",
+      "PHONE": "+91 800 000 0011",
+      "EMAIL": "dhruv.thomas11@testmail.example",
+      "MRN": "MRN-83000011"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Kabir A. Gupta was discharged in stable condition. The admission was related to a mild respiratory infection. For post-discharge coordination, contact the patient at +91 800 000 0012 or send correspondence to kabir.gupta12@testmail.example. The hospital file reference is MRN-83000012. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Kabir A. Gupta",
+      "PHONE": "+91 800 000 0012",
+      "EMAIL": "kabir.gupta12@testmail.example",
+      "MRN": "MRN-83000012"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ritvik A. Hegde was discharged in stable condition. The admission was related to dehydration. For post-discharge coordination, contact the patient at +91 800 000 0013 or send correspondence to ritvik.hegde13@testmail.example. The hospital file reference is MRN-83000013. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ritvik A. Hegde",
+      "PHONE": "+91 800 000 0013",
+      "EMAIL": "ritvik.hegde13@testmail.example",
+      "MRN": "MRN-83000013"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Anirudh A. Roy was discharged in stable condition. The admission was related to seasonal allergic rhinitis. For post-discharge coordination, contact the patient at +91 800 000 0014 or send correspondence to anirudh.roy14@testmail.example. The hospital file reference is MRN-83000014. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Anirudh A. Roy",
+      "PHONE": "+91 800 000 0014",
+      "EMAIL": "anirudh.roy14@testmail.example",
+      "MRN": "MRN-83000014"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Diya A. Kapoor was discharged in stable condition. The admission was related to a urinary tract infection. For post-discharge coordination, contact the patient at +91 800 000 0015 or send correspondence to diya.kapoor15@testmail.example. The hospital file reference is MRN-83000015. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Diya A. Kapoor",
+      "PHONE": "+91 800 000 0015",
+      "EMAIL": "diya.kapoor15@testmail.example",
+      "MRN": "MRN-83000015"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ananya A. Das was discharged in stable condition. The admission was related to migraine. For post-discharge coordination, contact the patient at +91 800 000 0016 or send correspondence to ananya.das16@testmail.example. The hospital file reference is MRN-83000016. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ananya A. Das",
+      "PHONE": "+91 800 000 0016",
+      "EMAIL": "ananya.das16@testmail.example",
+      "MRN": "MRN-83000016"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Aadhya A. Sinha was discharged in stable condition. The admission was related to muscle strain. For post-discharge coordination, contact the patient at +91 800 000 0017 or send correspondence to aadhya.sinha17@testmail.example. The hospital file reference is MRN-83000017. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Aadhya A. Sinha",
+      "PHONE": "+91 800 000 0017",
+      "EMAIL": "aadhya.sinha17@testmail.example",
+      "MRN": "MRN-83000017"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Saanvi A. Naidu was discharged in stable condition. The admission was related to hypertension review. For post-discharge coordination, contact the patient at +91 800 000 0018 or send correspondence to saanvi.naidu18@testmail.example. The hospital file reference is MRN-83000018. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Saanvi A. Naidu",
+      "PHONE": "+91 800 000 0018",
+      "EMAIL": "saanvi.naidu18@testmail.example",
+      "MRN": "MRN-83000018"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Pari A. Mohan was discharged in stable condition. The admission was related to type two diabetes review. For post-discharge coordination, contact the patient at +91 800 000 0019 or send correspondence to pari.mohan19@testmail.example. The hospital file reference is MRN-83000019. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Pari A. Mohan",
+      "PHONE": "+91 800 000 0019",
+      "EMAIL": "pari.mohan19@testmail.example",
+      "MRN": "MRN-83000019"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Myra A. Menon was discharged in stable condition. The admission was related to acute bronchitis. For post-discharge coordination, contact the patient at +91 800 000 0020 or send correspondence to myra.menon20@testmail.example. The hospital file reference is MRN-83000020. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Myra A. Menon",
+      "PHONE": "+91 800 000 0020",
+      "EMAIL": "myra.menon20@testmail.example",
+      "MRN": "MRN-83000020"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ira A. Rana was discharged in stable condition. The admission was related to viral gastroenteritis. For post-discharge coordination, contact the patient at +91 800 000 0021 or send correspondence to ira.rana21@testmail.example. The hospital file reference is MRN-83000021. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ira A. Rana",
+      "PHONE": "+91 800 000 0021",
+      "EMAIL": "ira.rana21@testmail.example",
+      "MRN": "MRN-83000021"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Aarohi A. Mehta was discharged in stable condition. The admission was related to a mild respiratory infection. For post-discharge coordination, contact the patient at +91 800 000 0022 or send correspondence to aarohi.mehta22@testmail.example. The hospital file reference is MRN-83000022. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Aarohi A. Mehta",
+      "PHONE": "+91 800 000 0022",
+      "EMAIL": "aarohi.mehta22@testmail.example",
+      "MRN": "MRN-83000022"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Anika A. Verma was discharged in stable condition. The admission was related to dehydration. For post-discharge coordination, contact the patient at +91 800 000 0023 or send correspondence to anika.verma23@testmail.example. The hospital file reference is MRN-83000023. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Anika A. Verma",
+      "PHONE": "+91 800 000 0023",
+      "EMAIL": "anika.verma23@testmail.example",
+      "MRN": "MRN-83000023"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Navya A. Chawla was discharged in stable condition. The admission was related to seasonal allergic rhinitis. For post-discharge coordination, contact the patient at +91 800 000 0024 or send correspondence to navya.chawla24@testmail.example. The hospital file reference is MRN-83000024. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Navya A. Chawla",
+      "PHONE": "+91 800 000 0024",
+      "EMAIL": "navya.chawla24@testmail.example",
+      "MRN": "MRN-83000024"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Meera A. Agarwal was discharged in stable condition. The admission was related to a urinary tract infection. For post-discharge coordination, contact the patient at +91 800 000 0025 or send correspondence to meera.agarwal25@testmail.example. The hospital file reference is MRN-83000025. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Meera A. Agarwal",
+      "PHONE": "+91 800 000 0025",
+      "EMAIL": "meera.agarwal25@testmail.example",
+      "MRN": "MRN-83000025"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Tara A. Jain was discharged in stable condition. The admission was related to migraine. For post-discharge coordination, contact the patient at +91 800 000 0026 or send correspondence to tara.jain26@testmail.example. The hospital file reference is MRN-83000026. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Tara A. Jain",
+      "PHONE": "+91 800 000 0026",
+      "EMAIL": "tara.jain26@testmail.example",
+      "MRN": "MRN-83000026"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Kiara A. Chatterjee was discharged in stable condition. The admission was related to muscle strain. For post-discharge coordination, contact the patient at +91 800 000 0027 or send correspondence to kiara.chatterjee27@testmail.example. The hospital file reference is MRN-83000027. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Kiara A. Chatterjee",
+      "PHONE": "+91 800 000 0027",
+      "EMAIL": "kiara.chatterjee27@testmail.example",
+      "MRN": "MRN-83000027"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Riya A. Chopra was discharged in stable condition. The admission was related to hypertension review. For post-discharge coordination, contact the patient at +91 800 000 0028 or send correspondence to riya.chopra28@testmail.example. The hospital file reference is MRN-83000028. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Riya A. Chopra",
+      "PHONE": "+91 800 000 0028",
+      "EMAIL": "riya.chopra28@testmail.example",
+      "MRN": "MRN-83000028"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Ishita A. Nair was discharged in stable condition. The admission was related to type two diabetes review. For post-discharge coordination, contact the patient at +91 800 000 0029 or send correspondence to ishita.nair29@testmail.example. The hospital file reference is MRN-83000029. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Ishita A. Nair",
+      "PHONE": "+91 800 000 0029",
+      "EMAIL": "ishita.nair29@testmail.example",
+      "MRN": "MRN-83000029"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Kavya A. Rao was discharged in stable condition. The admission was related to acute bronchitis. For post-discharge coordination, contact the patient at +91 800 000 0030 or send correspondence to kavya.rao30@testmail.example. The hospital file reference is MRN-83000030. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Kavya A. Rao",
+      "PHONE": "+91 800 000 0030",
+      "EMAIL": "kavya.rao30@testmail.example",
+      "MRN": "MRN-83000030"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Nisha A. Mishra was discharged in stable condition. The admission was related to viral gastroenteritis. For post-discharge coordination, contact the patient at +91 800 000 0031 or send correspondence to nisha.mishra31@testmail.example. The hospital file reference is MRN-83000031. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Nisha A. Mishra",
+      "PHONE": "+91 800 000 0031",
+      "EMAIL": "nisha.mishra31@testmail.example",
+      "MRN": "MRN-83000031"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Tanvi A. Khanna was discharged in stable condition. The admission was related to a mild respiratory infection. For post-discharge coordination, contact the patient at +91 800 000 0032 or send correspondence to tanvi.khanna32@testmail.example. The hospital file reference is MRN-83000032. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Tanvi A. Khanna",
+      "PHONE": "+91 800 000 0032",
+      "EMAIL": "tanvi.khanna32@testmail.example",
+      "MRN": "MRN-83000032"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Pooja A. Prasad was discharged in stable condition. The admission was related to dehydration. For post-discharge coordination, contact the patient at +91 800 000 0033 or send correspondence to pooja.prasad33@testmail.example. The hospital file reference is MRN-83000033. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Pooja A. Prasad",
+      "PHONE": "+91 800 000 0033",
+      "EMAIL": "pooja.prasad33@testmail.example",
+      "MRN": "MRN-83000033"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Shruti A. Banerjee was discharged in stable condition. The admission was related to seasonal allergic rhinitis. For post-discharge coordination, contact the patient at +91 800 000 0034 or send correspondence to shruti.banerjee34@testmail.example. The hospital file reference is MRN-83000034. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Shruti A. Banerjee",
+      "PHONE": "+91 800 000 0034",
+      "EMAIL": "shruti.banerjee34@testmail.example",
+      "MRN": "MRN-83000034"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Dev A. Singh was discharged in stable condition. The admission was related to a urinary tract infection. For post-discharge coordination, contact the patient at +91 800 000 0035 or send correspondence to dev.singh35@testmail.example. The hospital file reference is MRN-83000035. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Dev A. Singh",
+      "PHONE": "+91 800 000 0035",
+      "EMAIL": "dev.singh35@testmail.example",
+      "MRN": "MRN-83000035"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Karthik A. Reddy was discharged in stable condition. The admission was related to migraine. For post-discharge coordination, contact the patient at +91 800 000 0036 or send correspondence to karthik.reddy36@testmail.example. The hospital file reference is MRN-83000036. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Karthik A. Reddy",
+      "PHONE": "+91 800 000 0036",
+      "EMAIL": "karthik.reddy36@testmail.example",
+      "MRN": "MRN-83000036"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Nikhil A. Patel was discharged in stable condition. The admission was related to muscle strain. For post-discharge coordination, contact the patient at +91 800 000 0037 or send correspondence to nikhil.patel37@testmail.example. The hospital file reference is MRN-83000037. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Nikhil A. Patel",
+      "PHONE": "+91 800 000 0037",
+      "EMAIL": "nikhil.patel37@testmail.example",
+      "MRN": "MRN-83000037"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Rahul A. Desai was discharged in stable condition. The admission was related to hypertension review. For post-discharge coordination, contact the patient at +91 800 000 0038 or send correspondence to rahul.desai38@testmail.example. The hospital file reference is MRN-83000038. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Rahul A. Desai",
+      "PHONE": "+91 800 000 0038",
+      "EMAIL": "rahul.desai38@testmail.example",
+      "MRN": "MRN-83000038"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Siddharth A. Chandra was discharged in stable condition. The admission was related to type two diabetes review. For post-discharge coordination, contact the patient at +91 800 000 0039 or send correspondence to siddharth.chandra39@testmail.example. The hospital file reference is MRN-83000039. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Siddharth A. Chandra",
+      "PHONE": "+91 800 000 0039",
+      "EMAIL": "siddharth.chandra39@testmail.example",
+      "MRN": "MRN-83000039"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Varun A. Saxena was discharged in stable condition. The admission was related to acute bronchitis. For post-discharge coordination, contact the patient at +91 800 000 0040 or send correspondence to varun.saxena40@testmail.example. The hospital file reference is MRN-83000040. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Varun A. Saxena",
+      "PHONE": "+91 800 000 0040",
+      "EMAIL": "varun.saxena40@testmail.example",
+      "MRN": "MRN-83000040"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Rohan A. Mukherjee was discharged in stable condition. The admission was related to viral gastroenteritis. For post-discharge coordination, contact the patient at +91 800 000 0041 or send correspondence to rohan.mukherjee41@testmail.example. The hospital file reference is MRN-83000041. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Rohan A. Mukherjee",
+      "PHONE": "+91 800 000 0041",
+      "EMAIL": "rohan.mukherjee41@testmail.example",
+      "MRN": "MRN-83000041"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Manav A. Kumar was discharged in stable condition. The admission was related to a mild respiratory infection. For post-discharge coordination, contact the patient at +91 800 000 0042 or send correspondence to manav.kumar42@testmail.example. The hospital file reference is MRN-83000042. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Manav A. Kumar",
+      "PHONE": "+91 800 000 0042",
+      "EMAIL": "manav.kumar42@testmail.example",
+      "MRN": "MRN-83000042"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Pranav A. Iyer was discharged in stable condition. The admission was related to dehydration. For post-discharge coordination, contact the patient at +91 800 000 0043 or send correspondence to pranav.iyer43@testmail.example. The hospital file reference is MRN-83000043. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Pranav A. Iyer",
+      "PHONE": "+91 800 000 0043",
+      "EMAIL": "pranav.iyer43@testmail.example",
+      "MRN": "MRN-83000043"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Harish A. Joshi was discharged in stable condition. The admission was related to seasonal allergic rhinitis. For post-discharge coordination, contact the patient at +91 800 000 0044 or send correspondence to harish.joshi44@testmail.example. The hospital file reference is MRN-83000044. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Harish A. Joshi",
+      "PHONE": "+91 800 000 0044",
+      "EMAIL": "harish.joshi44@testmail.example",
+      "MRN": "MRN-83000044"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Gauri A. Malhotra was discharged in stable condition. The admission was related to a urinary tract infection. For post-discharge coordination, contact the patient at +91 800 000 0045 or send correspondence to gauri.malhotra45@testmail.example. The hospital file reference is MRN-83000045. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Gauri A. Malhotra",
+      "PHONE": "+91 800 000 0045",
+      "EMAIL": "gauri.malhotra45@testmail.example",
+      "MRN": "MRN-83000045"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Lavanya A. Ghosh was discharged in stable condition. The admission was related to migraine. For post-discharge coordination, contact the patient at +91 800 000 0046 or send correspondence to lavanya.ghosh46@testmail.example. The hospital file reference is MRN-83000046. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Lavanya A. Ghosh",
+      "PHONE": "+91 800 000 0046",
+      "EMAIL": "lavanya.ghosh46@testmail.example",
+      "MRN": "MRN-83000046"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Madhuri A. Dutta was discharged in stable condition. The admission was related to muscle strain. For post-discharge coordination, contact the patient at +91 800 000 0047 or send correspondence to madhuri.dutta47@testmail.example. The hospital file reference is MRN-83000047. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Madhuri A. Dutta",
+      "PHONE": "+91 800 000 0047",
+      "EMAIL": "madhuri.dutta47@testmail.example",
+      "MRN": "MRN-83000047"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Sneha A. Krishnan was discharged in stable condition. The admission was related to hypertension review. For post-discharge coordination, contact the patient at +91 800 000 0048 or send correspondence to sneha.krishnan48@testmail.example. The hospital file reference is MRN-83000048. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Sneha A. Krishnan",
+      "PHONE": "+91 800 000 0048",
+      "EMAIL": "sneha.krishnan48@testmail.example",
+      "MRN": "MRN-83000048"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "DISCHARGE SUMMARY\nFollowing inpatient treatment, Trisha A. Sethi was discharged in stable condition. The admission was related to type two diabetes review. For post-discharge coordination, contact the patient at +91 800 000 0049 or send correspondence to trisha.sethi49@testmail.example. The hospital file reference is MRN-83000049. Follow-up was advised within two weeks.",
+    "entities": {
+      "PERSON": "Trisha A. Sethi",
+      "PHONE": "+91 800 000 0049",
+      "EMAIL": "trisha.sethi49@testmail.example",
+      "MRN": "MRN-83000049"
+    },
+    "template_id": 8
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Aarav B. Sharma. The attending team assessed acute bronchitis. Next-of-kin communication details supplied by the patient were +91 800 000 0050 and aarav.sharma50@testmail.example. Encounter identification: MRN-83000050. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Aarav B. Sharma",
+      "PHONE": "+91 800 000 0050",
+      "EMAIL": "aarav.sharma50@testmail.example",
+      "MRN": "MRN-83000050"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Vivaan B. Pillai. The attending team assessed viral gastroenteritis. Next-of-kin communication details supplied by the patient were +91 800 000 0051 and vivaan.pillai51@testmail.example. Encounter identification: MRN-83000051. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Vivaan B. Pillai",
+      "PHONE": "+91 800 000 0051",
+      "EMAIL": "vivaan.pillai51@testmail.example",
+      "MRN": "MRN-83000051"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Aditya B. Bose. The attending team assessed a mild respiratory infection. Next-of-kin communication details supplied by the patient were +91 800 000 0052 and aditya.bose52@testmail.example. Encounter identification: MRN-83000052. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Aditya B. Bose",
+      "PHONE": "+91 800 000 0052",
+      "EMAIL": "aditya.bose52@testmail.example",
+      "MRN": "MRN-83000052"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Vihaan B. Shetty. The attending team assessed dehydration. Next-of-kin communication details supplied by the patient were +91 800 000 0053 and vihaan.shetty53@testmail.example. Encounter identification: MRN-83000053. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Vihaan B. Shetty",
+      "PHONE": "+91 800 000 0053",
+      "EMAIL": "vihaan.shetty53@testmail.example",
+      "MRN": "MRN-83000053"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Arjun B. Fernandes. The attending team assessed seasonal allergic rhinitis. Next-of-kin communication details supplied by the patient were +91 800 000 0054 and arjun.fernandes54@testmail.example. Encounter identification: MRN-83000054. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Arjun B. Fernandes",
+      "PHONE": "+91 800 000 0054",
+      "EMAIL": "arjun.fernandes54@testmail.example",
+      "MRN": "MRN-83000054"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Reyansh B. Subramanian. The attending team assessed a urinary tract infection. Next-of-kin communication details supplied by the patient were +91 800 000 0055 and reyansh.subramanian55@testmail.example. Encounter identification: MRN-83000055. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Reyansh B. Subramanian",
+      "PHONE": "+91 800 000 0055",
+      "EMAIL": "reyansh.subramanian55@testmail.example",
+      "MRN": "MRN-83000055"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ayaan B. Pawar. The attending team assessed migraine. Next-of-kin communication details supplied by the patient were +91 800 000 0056 and ayaan.pawar56@testmail.example. Encounter identification: MRN-83000056. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ayaan B. Pawar",
+      "PHONE": "+91 800 000 0056",
+      "EMAIL": "ayaan.pawar56@testmail.example",
+      "MRN": "MRN-83000056"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Krishna B. Paul. The attending team assessed muscle strain. Next-of-kin communication details supplied by the patient were +91 800 000 0057 and krishna.paul57@testmail.example. Encounter identification: MRN-83000057. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Krishna B. Paul",
+      "PHONE": "+91 800 000 0057",
+      "EMAIL": "krishna.paul57@testmail.example",
+      "MRN": "MRN-83000057"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ishaan B. Menon. The attending team assessed hypertension review. Next-of-kin communication details supplied by the patient were +91 800 000 0058 and ishaan.menon58@testmail.example. Encounter identification: MRN-83000058. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ishaan B. Menon",
+      "PHONE": "+91 800 000 0058",
+      "EMAIL": "ishaan.menon58@testmail.example",
+      "MRN": "MRN-83000058"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Shaurya B. Kulkarni. The attending team assessed type two diabetes review. Next-of-kin communication details supplied by the patient were +91 800 000 0059 and shaurya.kulkarni59@testmail.example. Encounter identification: MRN-83000059. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Shaurya B. Kulkarni",
+      "PHONE": "+91 800 000 0059",
+      "EMAIL": "shaurya.kulkarni59@testmail.example",
+      "MRN": "MRN-83000059"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Atharv B. Bhat. The attending team assessed acute bronchitis. Next-of-kin communication details supplied by the patient were +91 800 000 0060 and atharv.bhat60@testmail.example. Encounter identification: MRN-83000060. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Atharv B. Bhat",
+      "PHONE": "+91 800 000 0060",
+      "EMAIL": "atharv.bhat60@testmail.example",
+      "MRN": "MRN-83000060"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Dhruv B. Thomas. The attending team assessed viral gastroenteritis. Next-of-kin communication details supplied by the patient were +91 800 000 0061 and dhruv.thomas61@testmail.example. Encounter identification: MRN-83000061. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Dhruv B. Thomas",
+      "PHONE": "+91 800 000 0061",
+      "EMAIL": "dhruv.thomas61@testmail.example",
+      "MRN": "MRN-83000061"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Kabir B. Gupta. The attending team assessed a mild respiratory infection. Next-of-kin communication details supplied by the patient were +91 800 000 0062 and kabir.gupta62@testmail.example. Encounter identification: MRN-83000062. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Kabir B. Gupta",
+      "PHONE": "+91 800 000 0062",
+      "EMAIL": "kabir.gupta62@testmail.example",
+      "MRN": "MRN-83000062"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ritvik B. Hegde. The attending team assessed dehydration. Next-of-kin communication details supplied by the patient were +91 800 000 0063 and ritvik.hegde63@testmail.example. Encounter identification: MRN-83000063. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ritvik B. Hegde",
+      "PHONE": "+91 800 000 0063",
+      "EMAIL": "ritvik.hegde63@testmail.example",
+      "MRN": "MRN-83000063"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Anirudh B. Roy. The attending team assessed seasonal allergic rhinitis. Next-of-kin communication details supplied by the patient were +91 800 000 0064 and anirudh.roy64@testmail.example. Encounter identification: MRN-83000064. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Anirudh B. Roy",
+      "PHONE": "+91 800 000 0064",
+      "EMAIL": "anirudh.roy64@testmail.example",
+      "MRN": "MRN-83000064"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Diya B. Kapoor. The attending team assessed a urinary tract infection. Next-of-kin communication details supplied by the patient were +91 800 000 0065 and diya.kapoor65@testmail.example. Encounter identification: MRN-83000065. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Diya B. Kapoor",
+      "PHONE": "+91 800 000 0065",
+      "EMAIL": "diya.kapoor65@testmail.example",
+      "MRN": "MRN-83000065"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ananya B. Das. The attending team assessed migraine. Next-of-kin communication details supplied by the patient were +91 800 000 0066 and ananya.das66@testmail.example. Encounter identification: MRN-83000066. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ananya B. Das",
+      "PHONE": "+91 800 000 0066",
+      "EMAIL": "ananya.das66@testmail.example",
+      "MRN": "MRN-83000066"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Aadhya B. Sinha. The attending team assessed muscle strain. Next-of-kin communication details supplied by the patient were +91 800 000 0067 and aadhya.sinha67@testmail.example. Encounter identification: MRN-83000067. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Aadhya B. Sinha",
+      "PHONE": "+91 800 000 0067",
+      "EMAIL": "aadhya.sinha67@testmail.example",
+      "MRN": "MRN-83000067"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Saanvi B. Naidu. The attending team assessed hypertension review. Next-of-kin communication details supplied by the patient were +91 800 000 0068 and saanvi.naidu68@testmail.example. Encounter identification: MRN-83000068. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Saanvi B. Naidu",
+      "PHONE": "+91 800 000 0068",
+      "EMAIL": "saanvi.naidu68@testmail.example",
+      "MRN": "MRN-83000068"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Pari B. Mohan. The attending team assessed type two diabetes review. Next-of-kin communication details supplied by the patient were +91 800 000 0069 and pari.mohan69@testmail.example. Encounter identification: MRN-83000069. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Pari B. Mohan",
+      "PHONE": "+91 800 000 0069",
+      "EMAIL": "pari.mohan69@testmail.example",
+      "MRN": "MRN-83000069"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Myra B. Menon. The attending team assessed acute bronchitis. Next-of-kin communication details supplied by the patient were +91 800 000 0070 and myra.menon70@testmail.example. Encounter identification: MRN-83000070. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Myra B. Menon",
+      "PHONE": "+91 800 000 0070",
+      "EMAIL": "myra.menon70@testmail.example",
+      "MRN": "MRN-83000070"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ira B. Rana. The attending team assessed viral gastroenteritis. Next-of-kin communication details supplied by the patient were +91 800 000 0071 and ira.rana71@testmail.example. Encounter identification: MRN-83000071. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ira B. Rana",
+      "PHONE": "+91 800 000 0071",
+      "EMAIL": "ira.rana71@testmail.example",
+      "MRN": "MRN-83000071"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Aarohi B. Mehta. The attending team assessed a mild respiratory infection. Next-of-kin communication details supplied by the patient were +91 800 000 0072 and aarohi.mehta72@testmail.example. Encounter identification: MRN-83000072. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Aarohi B. Mehta",
+      "PHONE": "+91 800 000 0072",
+      "EMAIL": "aarohi.mehta72@testmail.example",
+      "MRN": "MRN-83000072"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Anika B. Verma. The attending team assessed dehydration. Next-of-kin communication details supplied by the patient were +91 800 000 0073 and anika.verma73@testmail.example. Encounter identification: MRN-83000073. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Anika B. Verma",
+      "PHONE": "+91 800 000 0073",
+      "EMAIL": "anika.verma73@testmail.example",
+      "MRN": "MRN-83000073"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Navya B. Chawla. The attending team assessed seasonal allergic rhinitis. Next-of-kin communication details supplied by the patient were +91 800 000 0074 and navya.chawla74@testmail.example. Encounter identification: MRN-83000074. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Navya B. Chawla",
+      "PHONE": "+91 800 000 0074",
+      "EMAIL": "navya.chawla74@testmail.example",
+      "MRN": "MRN-83000074"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Meera B. Agarwal. The attending team assessed a urinary tract infection. Next-of-kin communication details supplied by the patient were +91 800 000 0075 and meera.agarwal75@testmail.example. Encounter identification: MRN-83000075. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Meera B. Agarwal",
+      "PHONE": "+91 800 000 0075",
+      "EMAIL": "meera.agarwal75@testmail.example",
+      "MRN": "MRN-83000075"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Tara B. Jain. The attending team assessed migraine. Next-of-kin communication details supplied by the patient were +91 800 000 0076 and tara.jain76@testmail.example. Encounter identification: MRN-83000076. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Tara B. Jain",
+      "PHONE": "+91 800 000 0076",
+      "EMAIL": "tara.jain76@testmail.example",
+      "MRN": "MRN-83000076"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Kiara B. Chatterjee. The attending team assessed muscle strain. Next-of-kin communication details supplied by the patient were +91 800 000 0077 and kiara.chatterjee77@testmail.example. Encounter identification: MRN-83000077. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Kiara B. Chatterjee",
+      "PHONE": "+91 800 000 0077",
+      "EMAIL": "kiara.chatterjee77@testmail.example",
+      "MRN": "MRN-83000077"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Riya B. Chopra. The attending team assessed hypertension review. Next-of-kin communication details supplied by the patient were +91 800 000 0078 and riya.chopra78@testmail.example. Encounter identification: MRN-83000078. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Riya B. Chopra",
+      "PHONE": "+91 800 000 0078",
+      "EMAIL": "riya.chopra78@testmail.example",
+      "MRN": "MRN-83000078"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Ishita B. Nair. The attending team assessed type two diabetes review. Next-of-kin communication details supplied by the patient were +91 800 000 0079 and ishita.nair79@testmail.example. Encounter identification: MRN-83000079. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Ishita B. Nair",
+      "PHONE": "+91 800 000 0079",
+      "EMAIL": "ishita.nair79@testmail.example",
+      "MRN": "MRN-83000079"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Kavya B. Rao. The attending team assessed acute bronchitis. Next-of-kin communication details supplied by the patient were +91 800 000 0080 and kavya.rao80@testmail.example. Encounter identification: MRN-83000080. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Kavya B. Rao",
+      "PHONE": "+91 800 000 0080",
+      "EMAIL": "kavya.rao80@testmail.example",
+      "MRN": "MRN-83000080"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Nisha B. Mishra. The attending team assessed viral gastroenteritis. Next-of-kin communication details supplied by the patient were +91 800 000 0081 and nisha.mishra81@testmail.example. Encounter identification: MRN-83000081. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Nisha B. Mishra",
+      "PHONE": "+91 800 000 0081",
+      "EMAIL": "nisha.mishra81@testmail.example",
+      "MRN": "MRN-83000081"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Tanvi B. Khanna. The attending team assessed a mild respiratory infection. Next-of-kin communication details supplied by the patient were +91 800 000 0082 and tanvi.khanna82@testmail.example. Encounter identification: MRN-83000082. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Tanvi B. Khanna",
+      "PHONE": "+91 800 000 0082",
+      "EMAIL": "tanvi.khanna82@testmail.example",
+      "MRN": "MRN-83000082"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Pooja B. Prasad. The attending team assessed dehydration. Next-of-kin communication details supplied by the patient were +91 800 000 0083 and pooja.prasad83@testmail.example. Encounter identification: MRN-83000083. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Pooja B. Prasad",
+      "PHONE": "+91 800 000 0083",
+      "EMAIL": "pooja.prasad83@testmail.example",
+      "MRN": "MRN-83000083"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Shruti B. Banerjee. The attending team assessed seasonal allergic rhinitis. Next-of-kin communication details supplied by the patient were +91 800 000 0084 and shruti.banerjee84@testmail.example. Encounter identification: MRN-83000084. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Shruti B. Banerjee",
+      "PHONE": "+91 800 000 0084",
+      "EMAIL": "shruti.banerjee84@testmail.example",
+      "MRN": "MRN-83000084"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Dev B. Singh. The attending team assessed a urinary tract infection. Next-of-kin communication details supplied by the patient were +91 800 000 0085 and dev.singh85@testmail.example. Encounter identification: MRN-83000085. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Dev B. Singh",
+      "PHONE": "+91 800 000 0085",
+      "EMAIL": "dev.singh85@testmail.example",
+      "MRN": "MRN-83000085"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Karthik B. Reddy. The attending team assessed migraine. Next-of-kin communication details supplied by the patient were +91 800 000 0086 and karthik.reddy86@testmail.example. Encounter identification: MRN-83000086. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Karthik B. Reddy",
+      "PHONE": "+91 800 000 0086",
+      "EMAIL": "karthik.reddy86@testmail.example",
+      "MRN": "MRN-83000086"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Nikhil B. Patel. The attending team assessed muscle strain. Next-of-kin communication details supplied by the patient were +91 800 000 0087 and nikhil.patel87@testmail.example. Encounter identification: MRN-83000087. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Nikhil B. Patel",
+      "PHONE": "+91 800 000 0087",
+      "EMAIL": "nikhil.patel87@testmail.example",
+      "MRN": "MRN-83000087"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Rahul B. Desai. The attending team assessed hypertension review. Next-of-kin communication details supplied by the patient were +91 800 000 0088 and rahul.desai88@testmail.example. Encounter identification: MRN-83000088. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Rahul B. Desai",
+      "PHONE": "+91 800 000 0088",
+      "EMAIL": "rahul.desai88@testmail.example",
+      "MRN": "MRN-83000088"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Siddharth B. Chandra. The attending team assessed type two diabetes review. Next-of-kin communication details supplied by the patient were +91 800 000 0089 and siddharth.chandra89@testmail.example. Encounter identification: MRN-83000089. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Siddharth B. Chandra",
+      "PHONE": "+91 800 000 0089",
+      "EMAIL": "siddharth.chandra89@testmail.example",
+      "MRN": "MRN-83000089"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Varun B. Saxena. The attending team assessed acute bronchitis. Next-of-kin communication details supplied by the patient were +91 800 000 0090 and varun.saxena90@testmail.example. Encounter identification: MRN-83000090. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Varun B. Saxena",
+      "PHONE": "+91 800 000 0090",
+      "EMAIL": "varun.saxena90@testmail.example",
+      "MRN": "MRN-83000090"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Rohan B. Mukherjee. The attending team assessed viral gastroenteritis. Next-of-kin communication details supplied by the patient were +91 800 000 0091 and rohan.mukherjee91@testmail.example. Encounter identification: MRN-83000091. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Rohan B. Mukherjee",
+      "PHONE": "+91 800 000 0091",
+      "EMAIL": "rohan.mukherjee91@testmail.example",
+      "MRN": "MRN-83000091"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Manav B. Kumar. The attending team assessed a mild respiratory infection. Next-of-kin communication details supplied by the patient were +91 800 000 0092 and manav.kumar92@testmail.example. Encounter identification: MRN-83000092. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Manav B. Kumar",
+      "PHONE": "+91 800 000 0092",
+      "EMAIL": "manav.kumar92@testmail.example",
+      "MRN": "MRN-83000092"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Pranav B. Iyer. The attending team assessed dehydration. Next-of-kin communication details supplied by the patient were +91 800 000 0093 and pranav.iyer93@testmail.example. Encounter identification: MRN-83000093. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Pranav B. Iyer",
+      "PHONE": "+91 800 000 0093",
+      "EMAIL": "pranav.iyer93@testmail.example",
+      "MRN": "MRN-83000093"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Harish B. Joshi. The attending team assessed seasonal allergic rhinitis. Next-of-kin communication details supplied by the patient were +91 800 000 0094 and harish.joshi94@testmail.example. Encounter identification: MRN-83000094. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Harish B. Joshi",
+      "PHONE": "+91 800 000 0094",
+      "EMAIL": "harish.joshi94@testmail.example",
+      "MRN": "MRN-83000094"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Gauri B. Malhotra. The attending team assessed a urinary tract infection. Next-of-kin communication details supplied by the patient were +91 800 000 0095 and gauri.malhotra95@testmail.example. Encounter identification: MRN-83000095. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Gauri B. Malhotra",
+      "PHONE": "+91 800 000 0095",
+      "EMAIL": "gauri.malhotra95@testmail.example",
+      "MRN": "MRN-83000095"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Lavanya B. Ghosh. The attending team assessed migraine. Next-of-kin communication details supplied by the patient were +91 800 000 0096 and lavanya.ghosh96@testmail.example. Encounter identification: MRN-83000096. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Lavanya B. Ghosh",
+      "PHONE": "+91 800 000 0096",
+      "EMAIL": "lavanya.ghosh96@testmail.example",
+      "MRN": "MRN-83000096"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Madhuri B. Dutta. The attending team assessed muscle strain. Next-of-kin communication details supplied by the patient were +91 800 000 0097 and madhuri.dutta97@testmail.example. Encounter identification: MRN-83000097. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Madhuri B. Dutta",
+      "PHONE": "+91 800 000 0097",
+      "EMAIL": "madhuri.dutta97@testmail.example",
+      "MRN": "MRN-83000097"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Sneha B. Krishnan. The attending team assessed hypertension review. Next-of-kin communication details supplied by the patient were +91 800 000 0098 and sneha.krishnan98@testmail.example. Encounter identification: MRN-83000098. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Sneha B. Krishnan",
+      "PHONE": "+91 800 000 0098",
+      "EMAIL": "sneha.krishnan98@testmail.example",
+      "MRN": "MRN-83000098"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "EMERGENCY DEPARTMENT RECORD\nArrival details were documented for Trisha B. Sethi. The attending team assessed type two diabetes review. Next-of-kin communication details supplied by the patient were +91 800 000 0099 and trisha.sethi99@testmail.example. Encounter identification: MRN-83000099. The patient was discharged with routine instructions.",
+    "entities": {
+      "PERSON": "Trisha B. Sethi",
+      "PHONE": "+91 800 000 0099",
+      "EMAIL": "trisha.sethi99@testmail.example",
+      "MRN": "MRN-83000099"
+    },
+    "template_id": 9
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Aarav C. Sharma for acute bronchitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0100. Patient correspondence address: aarav.sharma100@testmail.example. Please quote reference MRN-83000100 in your response.",
+    "entities": {
+      "PERSON": "Aarav C. Sharma",
+      "PHONE": "+91 800 000 0100",
+      "EMAIL": "aarav.sharma100@testmail.example",
+      "MRN": "MRN-83000100"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Vivaan C. Pillai for viral gastroenteritis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0101. Patient correspondence address: vivaan.pillai101@testmail.example. Please quote reference MRN-83000101 in your response.",
+    "entities": {
+      "PERSON": "Vivaan C. Pillai",
+      "PHONE": "+91 800 000 0101",
+      "EMAIL": "vivaan.pillai101@testmail.example",
+      "MRN": "MRN-83000101"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Aditya C. Bose for a mild respiratory infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0102. Patient correspondence address: aditya.bose102@testmail.example. Please quote reference MRN-83000102 in your response.",
+    "entities": {
+      "PERSON": "Aditya C. Bose",
+      "PHONE": "+91 800 000 0102",
+      "EMAIL": "aditya.bose102@testmail.example",
+      "MRN": "MRN-83000102"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Vihaan C. Shetty for dehydration. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0103. Patient correspondence address: vihaan.shetty103@testmail.example. Please quote reference MRN-83000103 in your response.",
+    "entities": {
+      "PERSON": "Vihaan C. Shetty",
+      "PHONE": "+91 800 000 0103",
+      "EMAIL": "vihaan.shetty103@testmail.example",
+      "MRN": "MRN-83000103"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Arjun C. Fernandes for seasonal allergic rhinitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0104. Patient correspondence address: arjun.fernandes104@testmail.example. Please quote reference MRN-83000104 in your response.",
+    "entities": {
+      "PERSON": "Arjun C. Fernandes",
+      "PHONE": "+91 800 000 0104",
+      "EMAIL": "arjun.fernandes104@testmail.example",
+      "MRN": "MRN-83000104"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Reyansh C. Subramanian for a urinary tract infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0105. Patient correspondence address: reyansh.subramanian105@testmail.example. Please quote reference MRN-83000105 in your response.",
+    "entities": {
+      "PERSON": "Reyansh C. Subramanian",
+      "PHONE": "+91 800 000 0105",
+      "EMAIL": "reyansh.subramanian105@testmail.example",
+      "MRN": "MRN-83000105"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ayaan C. Pawar for migraine. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0106. Patient correspondence address: ayaan.pawar106@testmail.example. Please quote reference MRN-83000106 in your response.",
+    "entities": {
+      "PERSON": "Ayaan C. Pawar",
+      "PHONE": "+91 800 000 0106",
+      "EMAIL": "ayaan.pawar106@testmail.example",
+      "MRN": "MRN-83000106"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Krishna C. Paul for muscle strain. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0107. Patient correspondence address: krishna.paul107@testmail.example. Please quote reference MRN-83000107 in your response.",
+    "entities": {
+      "PERSON": "Krishna C. Paul",
+      "PHONE": "+91 800 000 0107",
+      "EMAIL": "krishna.paul107@testmail.example",
+      "MRN": "MRN-83000107"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ishaan C. Menon for hypertension review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0108. Patient correspondence address: ishaan.menon108@testmail.example. Please quote reference MRN-83000108 in your response.",
+    "entities": {
+      "PERSON": "Ishaan C. Menon",
+      "PHONE": "+91 800 000 0108",
+      "EMAIL": "ishaan.menon108@testmail.example",
+      "MRN": "MRN-83000108"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Shaurya C. Kulkarni for type two diabetes review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0109. Patient correspondence address: shaurya.kulkarni109@testmail.example. Please quote reference MRN-83000109 in your response.",
+    "entities": {
+      "PERSON": "Shaurya C. Kulkarni",
+      "PHONE": "+91 800 000 0109",
+      "EMAIL": "shaurya.kulkarni109@testmail.example",
+      "MRN": "MRN-83000109"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Atharv C. Bhat for acute bronchitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0110. Patient correspondence address: atharv.bhat110@testmail.example. Please quote reference MRN-83000110 in your response.",
+    "entities": {
+      "PERSON": "Atharv C. Bhat",
+      "PHONE": "+91 800 000 0110",
+      "EMAIL": "atharv.bhat110@testmail.example",
+      "MRN": "MRN-83000110"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Dhruv C. Thomas for viral gastroenteritis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0111. Patient correspondence address: dhruv.thomas111@testmail.example. Please quote reference MRN-83000111 in your response.",
+    "entities": {
+      "PERSON": "Dhruv C. Thomas",
+      "PHONE": "+91 800 000 0111",
+      "EMAIL": "dhruv.thomas111@testmail.example",
+      "MRN": "MRN-83000111"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Kabir C. Gupta for a mild respiratory infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0112. Patient correspondence address: kabir.gupta112@testmail.example. Please quote reference MRN-83000112 in your response.",
+    "entities": {
+      "PERSON": "Kabir C. Gupta",
+      "PHONE": "+91 800 000 0112",
+      "EMAIL": "kabir.gupta112@testmail.example",
+      "MRN": "MRN-83000112"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ritvik C. Hegde for dehydration. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0113. Patient correspondence address: ritvik.hegde113@testmail.example. Please quote reference MRN-83000113 in your response.",
+    "entities": {
+      "PERSON": "Ritvik C. Hegde",
+      "PHONE": "+91 800 000 0113",
+      "EMAIL": "ritvik.hegde113@testmail.example",
+      "MRN": "MRN-83000113"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Anirudh C. Roy for seasonal allergic rhinitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0114. Patient correspondence address: anirudh.roy114@testmail.example. Please quote reference MRN-83000114 in your response.",
+    "entities": {
+      "PERSON": "Anirudh C. Roy",
+      "PHONE": "+91 800 000 0114",
+      "EMAIL": "anirudh.roy114@testmail.example",
+      "MRN": "MRN-83000114"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Diya C. Kapoor for a urinary tract infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0115. Patient correspondence address: diya.kapoor115@testmail.example. Please quote reference MRN-83000115 in your response.",
+    "entities": {
+      "PERSON": "Diya C. Kapoor",
+      "PHONE": "+91 800 000 0115",
+      "EMAIL": "diya.kapoor115@testmail.example",
+      "MRN": "MRN-83000115"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ananya C. Das for migraine. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0116. Patient correspondence address: ananya.das116@testmail.example. Please quote reference MRN-83000116 in your response.",
+    "entities": {
+      "PERSON": "Ananya C. Das",
+      "PHONE": "+91 800 000 0116",
+      "EMAIL": "ananya.das116@testmail.example",
+      "MRN": "MRN-83000116"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Aadhya C. Sinha for muscle strain. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0117. Patient correspondence address: aadhya.sinha117@testmail.example. Please quote reference MRN-83000117 in your response.",
+    "entities": {
+      "PERSON": "Aadhya C. Sinha",
+      "PHONE": "+91 800 000 0117",
+      "EMAIL": "aadhya.sinha117@testmail.example",
+      "MRN": "MRN-83000117"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Saanvi C. Naidu for hypertension review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0118. Patient correspondence address: saanvi.naidu118@testmail.example. Please quote reference MRN-83000118 in your response.",
+    "entities": {
+      "PERSON": "Saanvi C. Naidu",
+      "PHONE": "+91 800 000 0118",
+      "EMAIL": "saanvi.naidu118@testmail.example",
+      "MRN": "MRN-83000118"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Pari C. Mohan for type two diabetes review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0119. Patient correspondence address: pari.mohan119@testmail.example. Please quote reference MRN-83000119 in your response.",
+    "entities": {
+      "PERSON": "Pari C. Mohan",
+      "PHONE": "+91 800 000 0119",
+      "EMAIL": "pari.mohan119@testmail.example",
+      "MRN": "MRN-83000119"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Myra C. Menon for acute bronchitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0120. Patient correspondence address: myra.menon120@testmail.example. Please quote reference MRN-83000120 in your response.",
+    "entities": {
+      "PERSON": "Myra C. Menon",
+      "PHONE": "+91 800 000 0120",
+      "EMAIL": "myra.menon120@testmail.example",
+      "MRN": "MRN-83000120"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ira C. Rana for viral gastroenteritis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0121. Patient correspondence address: ira.rana121@testmail.example. Please quote reference MRN-83000121 in your response.",
+    "entities": {
+      "PERSON": "Ira C. Rana",
+      "PHONE": "+91 800 000 0121",
+      "EMAIL": "ira.rana121@testmail.example",
+      "MRN": "MRN-83000121"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Aarohi C. Mehta for a mild respiratory infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0122. Patient correspondence address: aarohi.mehta122@testmail.example. Please quote reference MRN-83000122 in your response.",
+    "entities": {
+      "PERSON": "Aarohi C. Mehta",
+      "PHONE": "+91 800 000 0122",
+      "EMAIL": "aarohi.mehta122@testmail.example",
+      "MRN": "MRN-83000122"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Anika C. Verma for dehydration. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0123. Patient correspondence address: anika.verma123@testmail.example. Please quote reference MRN-83000123 in your response.",
+    "entities": {
+      "PERSON": "Anika C. Verma",
+      "PHONE": "+91 800 000 0123",
+      "EMAIL": "anika.verma123@testmail.example",
+      "MRN": "MRN-83000123"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Navya C. Chawla for seasonal allergic rhinitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0124. Patient correspondence address: navya.chawla124@testmail.example. Please quote reference MRN-83000124 in your response.",
+    "entities": {
+      "PERSON": "Navya C. Chawla",
+      "PHONE": "+91 800 000 0124",
+      "EMAIL": "navya.chawla124@testmail.example",
+      "MRN": "MRN-83000124"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Meera C. Agarwal for a urinary tract infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0125. Patient correspondence address: meera.agarwal125@testmail.example. Please quote reference MRN-83000125 in your response.",
+    "entities": {
+      "PERSON": "Meera C. Agarwal",
+      "PHONE": "+91 800 000 0125",
+      "EMAIL": "meera.agarwal125@testmail.example",
+      "MRN": "MRN-83000125"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Tara C. Jain for migraine. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0126. Patient correspondence address: tara.jain126@testmail.example. Please quote reference MRN-83000126 in your response.",
+    "entities": {
+      "PERSON": "Tara C. Jain",
+      "PHONE": "+91 800 000 0126",
+      "EMAIL": "tara.jain126@testmail.example",
+      "MRN": "MRN-83000126"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Kiara C. Chatterjee for muscle strain. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0127. Patient correspondence address: kiara.chatterjee127@testmail.example. Please quote reference MRN-83000127 in your response.",
+    "entities": {
+      "PERSON": "Kiara C. Chatterjee",
+      "PHONE": "+91 800 000 0127",
+      "EMAIL": "kiara.chatterjee127@testmail.example",
+      "MRN": "MRN-83000127"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Riya C. Chopra for hypertension review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0128. Patient correspondence address: riya.chopra128@testmail.example. Please quote reference MRN-83000128 in your response.",
+    "entities": {
+      "PERSON": "Riya C. Chopra",
+      "PHONE": "+91 800 000 0128",
+      "EMAIL": "riya.chopra128@testmail.example",
+      "MRN": "MRN-83000128"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Ishita C. Nair for type two diabetes review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0129. Patient correspondence address: ishita.nair129@testmail.example. Please quote reference MRN-83000129 in your response.",
+    "entities": {
+      "PERSON": "Ishita C. Nair",
+      "PHONE": "+91 800 000 0129",
+      "EMAIL": "ishita.nair129@testmail.example",
+      "MRN": "MRN-83000129"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Kavya C. Rao for acute bronchitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0130. Patient correspondence address: kavya.rao130@testmail.example. Please quote reference MRN-83000130 in your response.",
+    "entities": {
+      "PERSON": "Kavya C. Rao",
+      "PHONE": "+91 800 000 0130",
+      "EMAIL": "kavya.rao130@testmail.example",
+      "MRN": "MRN-83000130"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Nisha C. Mishra for viral gastroenteritis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0131. Patient correspondence address: nisha.mishra131@testmail.example. Please quote reference MRN-83000131 in your response.",
+    "entities": {
+      "PERSON": "Nisha C. Mishra",
+      "PHONE": "+91 800 000 0131",
+      "EMAIL": "nisha.mishra131@testmail.example",
+      "MRN": "MRN-83000131"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Tanvi C. Khanna for a mild respiratory infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0132. Patient correspondence address: tanvi.khanna132@testmail.example. Please quote reference MRN-83000132 in your response.",
+    "entities": {
+      "PERSON": "Tanvi C. Khanna",
+      "PHONE": "+91 800 000 0132",
+      "EMAIL": "tanvi.khanna132@testmail.example",
+      "MRN": "MRN-83000132"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Pooja C. Prasad for dehydration. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0133. Patient correspondence address: pooja.prasad133@testmail.example. Please quote reference MRN-83000133 in your response.",
+    "entities": {
+      "PERSON": "Pooja C. Prasad",
+      "PHONE": "+91 800 000 0133",
+      "EMAIL": "pooja.prasad133@testmail.example",
+      "MRN": "MRN-83000133"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Shruti C. Banerjee for seasonal allergic rhinitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0134. Patient correspondence address: shruti.banerjee134@testmail.example. Please quote reference MRN-83000134 in your response.",
+    "entities": {
+      "PERSON": "Shruti C. Banerjee",
+      "PHONE": "+91 800 000 0134",
+      "EMAIL": "shruti.banerjee134@testmail.example",
+      "MRN": "MRN-83000134"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Dev C. Singh for a urinary tract infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0135. Patient correspondence address: dev.singh135@testmail.example. Please quote reference MRN-83000135 in your response.",
+    "entities": {
+      "PERSON": "Dev C. Singh",
+      "PHONE": "+91 800 000 0135",
+      "EMAIL": "dev.singh135@testmail.example",
+      "MRN": "MRN-83000135"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Karthik C. Reddy for migraine. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0136. Patient correspondence address: karthik.reddy136@testmail.example. Please quote reference MRN-83000136 in your response.",
+    "entities": {
+      "PERSON": "Karthik C. Reddy",
+      "PHONE": "+91 800 000 0136",
+      "EMAIL": "karthik.reddy136@testmail.example",
+      "MRN": "MRN-83000136"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Nikhil C. Patel for muscle strain. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0137. Patient correspondence address: nikhil.patel137@testmail.example. Please quote reference MRN-83000137 in your response.",
+    "entities": {
+      "PERSON": "Nikhil C. Patel",
+      "PHONE": "+91 800 000 0137",
+      "EMAIL": "nikhil.patel137@testmail.example",
+      "MRN": "MRN-83000137"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Rahul C. Desai for hypertension review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0138. Patient correspondence address: rahul.desai138@testmail.example. Please quote reference MRN-83000138 in your response.",
+    "entities": {
+      "PERSON": "Rahul C. Desai",
+      "PHONE": "+91 800 000 0138",
+      "EMAIL": "rahul.desai138@testmail.example",
+      "MRN": "MRN-83000138"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Siddharth C. Chandra for type two diabetes review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0139. Patient correspondence address: siddharth.chandra139@testmail.example. Please quote reference MRN-83000139 in your response.",
+    "entities": {
+      "PERSON": "Siddharth C. Chandra",
+      "PHONE": "+91 800 000 0139",
+      "EMAIL": "siddharth.chandra139@testmail.example",
+      "MRN": "MRN-83000139"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Varun C. Saxena for acute bronchitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0140. Patient correspondence address: varun.saxena140@testmail.example. Please quote reference MRN-83000140 in your response.",
+    "entities": {
+      "PERSON": "Varun C. Saxena",
+      "PHONE": "+91 800 000 0140",
+      "EMAIL": "varun.saxena140@testmail.example",
+      "MRN": "MRN-83000140"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Rohan C. Mukherjee for viral gastroenteritis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0141. Patient correspondence address: rohan.mukherjee141@testmail.example. Please quote reference MRN-83000141 in your response.",
+    "entities": {
+      "PERSON": "Rohan C. Mukherjee",
+      "PHONE": "+91 800 000 0141",
+      "EMAIL": "rohan.mukherjee141@testmail.example",
+      "MRN": "MRN-83000141"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Manav C. Kumar for a mild respiratory infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0142. Patient correspondence address: manav.kumar142@testmail.example. Please quote reference MRN-83000142 in your response.",
+    "entities": {
+      "PERSON": "Manav C. Kumar",
+      "PHONE": "+91 800 000 0142",
+      "EMAIL": "manav.kumar142@testmail.example",
+      "MRN": "MRN-83000142"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Pranav C. Iyer for dehydration. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0143. Patient correspondence address: pranav.iyer143@testmail.example. Please quote reference MRN-83000143 in your response.",
+    "entities": {
+      "PERSON": "Pranav C. Iyer",
+      "PHONE": "+91 800 000 0143",
+      "EMAIL": "pranav.iyer143@testmail.example",
+      "MRN": "MRN-83000143"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Harish C. Joshi for seasonal allergic rhinitis. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0144. Patient correspondence address: harish.joshi144@testmail.example. Please quote reference MRN-83000144 in your response.",
+    "entities": {
+      "PERSON": "Harish C. Joshi",
+      "PHONE": "+91 800 000 0144",
+      "EMAIL": "harish.joshi144@testmail.example",
+      "MRN": "MRN-83000144"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Gauri C. Malhotra for a urinary tract infection. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0145. Patient correspondence address: gauri.malhotra145@testmail.example. Please quote reference MRN-83000145 in your response.",
+    "entities": {
+      "PERSON": "Gauri C. Malhotra",
+      "PHONE": "+91 800 000 0145",
+      "EMAIL": "gauri.malhotra145@testmail.example",
+      "MRN": "MRN-83000145"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Lavanya C. Ghosh for migraine. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0146. Patient correspondence address: lavanya.ghosh146@testmail.example. Please quote reference MRN-83000146 in your response.",
+    "entities": {
+      "PERSON": "Lavanya C. Ghosh",
+      "PHONE": "+91 800 000 0146",
+      "EMAIL": "lavanya.ghosh146@testmail.example",
+      "MRN": "MRN-83000146"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Madhuri C. Dutta for muscle strain. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0147. Patient correspondence address: madhuri.dutta147@testmail.example. Please quote reference MRN-83000147 in your response.",
+    "entities": {
+      "PERSON": "Madhuri C. Dutta",
+      "PHONE": "+91 800 000 0147",
+      "EMAIL": "madhuri.dutta147@testmail.example",
+      "MRN": "MRN-83000147"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Sneha C. Krishnan for hypertension review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0148. Patient correspondence address: sneha.krishnan148@testmail.example. Please quote reference MRN-83000148 in your response.",
+    "entities": {
+      "PERSON": "Sneha C. Krishnan",
+      "PHONE": "+91 800 000 0148",
+      "EMAIL": "sneha.krishnan148@testmail.example",
+      "MRN": "MRN-83000148"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "REFERRAL CORRESPONDENCE\nDear Specialist, please review Trisha C. Sethi for type two diabetes review. The referring clinic can coordinate appointments through the patient contact number +91 800 000 0149. Patient correspondence address: trisha.sethi149@testmail.example. Please quote reference MRN-83000149 in your response.",
+    "entities": {
+      "PERSON": "Trisha C. Sethi",
+      "PHONE": "+91 800 000 0149",
+      "EMAIL": "trisha.sethi149@testmail.example",
+      "MRN": "MRN-83000149"
+    },
+    "template_id": 10
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Aarav D. Sharma discussed ongoing care for acute bronchitis. The clinic verified the telephone contact as +91 800 000 0150 and the electronic contact as aarav.sharma150@testmail.example. The longitudinal medical file is recorded under MRN-83000150. A further review was recommended.",
+    "entities": {
+      "PERSON": "Aarav D. Sharma",
+      "PHONE": "+91 800 000 0150",
+      "EMAIL": "aarav.sharma150@testmail.example",
+      "MRN": "MRN-83000150"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Vivaan D. Pillai discussed ongoing care for viral gastroenteritis. The clinic verified the telephone contact as +91 800 000 0151 and the electronic contact as vivaan.pillai151@testmail.example. The longitudinal medical file is recorded under MRN-83000151. A further review was recommended.",
+    "entities": {
+      "PERSON": "Vivaan D. Pillai",
+      "PHONE": "+91 800 000 0151",
+      "EMAIL": "vivaan.pillai151@testmail.example",
+      "MRN": "MRN-83000151"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Aditya D. Bose discussed ongoing care for a mild respiratory infection. The clinic verified the telephone contact as +91 800 000 0152 and the electronic contact as aditya.bose152@testmail.example. The longitudinal medical file is recorded under MRN-83000152. A further review was recommended.",
+    "entities": {
+      "PERSON": "Aditya D. Bose",
+      "PHONE": "+91 800 000 0152",
+      "EMAIL": "aditya.bose152@testmail.example",
+      "MRN": "MRN-83000152"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Vihaan D. Shetty discussed ongoing care for dehydration. The clinic verified the telephone contact as +91 800 000 0153 and the electronic contact as vihaan.shetty153@testmail.example. The longitudinal medical file is recorded under MRN-83000153. A further review was recommended.",
+    "entities": {
+      "PERSON": "Vihaan D. Shetty",
+      "PHONE": "+91 800 000 0153",
+      "EMAIL": "vihaan.shetty153@testmail.example",
+      "MRN": "MRN-83000153"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Arjun D. Fernandes discussed ongoing care for seasonal allergic rhinitis. The clinic verified the telephone contact as +91 800 000 0154 and the electronic contact as arjun.fernandes154@testmail.example. The longitudinal medical file is recorded under MRN-83000154. A further review was recommended.",
+    "entities": {
+      "PERSON": "Arjun D. Fernandes",
+      "PHONE": "+91 800 000 0154",
+      "EMAIL": "arjun.fernandes154@testmail.example",
+      "MRN": "MRN-83000154"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Reyansh D. Subramanian discussed ongoing care for a urinary tract infection. The clinic verified the telephone contact as +91 800 000 0155 and the electronic contact as reyansh.subramanian155@testmail.example. The longitudinal medical file is recorded under MRN-83000155. A further review was recommended.",
+    "entities": {
+      "PERSON": "Reyansh D. Subramanian",
+      "PHONE": "+91 800 000 0155",
+      "EMAIL": "reyansh.subramanian155@testmail.example",
+      "MRN": "MRN-83000155"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ayaan D. Pawar discussed ongoing care for migraine. The clinic verified the telephone contact as +91 800 000 0156 and the electronic contact as ayaan.pawar156@testmail.example. The longitudinal medical file is recorded under MRN-83000156. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ayaan D. Pawar",
+      "PHONE": "+91 800 000 0156",
+      "EMAIL": "ayaan.pawar156@testmail.example",
+      "MRN": "MRN-83000156"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Krishna D. Paul discussed ongoing care for muscle strain. The clinic verified the telephone contact as +91 800 000 0157 and the electronic contact as krishna.paul157@testmail.example. The longitudinal medical file is recorded under MRN-83000157. A further review was recommended.",
+    "entities": {
+      "PERSON": "Krishna D. Paul",
+      "PHONE": "+91 800 000 0157",
+      "EMAIL": "krishna.paul157@testmail.example",
+      "MRN": "MRN-83000157"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ishaan D. Menon discussed ongoing care for hypertension review. The clinic verified the telephone contact as +91 800 000 0158 and the electronic contact as ishaan.menon158@testmail.example. The longitudinal medical file is recorded under MRN-83000158. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ishaan D. Menon",
+      "PHONE": "+91 800 000 0158",
+      "EMAIL": "ishaan.menon158@testmail.example",
+      "MRN": "MRN-83000158"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Shaurya D. Kulkarni discussed ongoing care for type two diabetes review. The clinic verified the telephone contact as +91 800 000 0159 and the electronic contact as shaurya.kulkarni159@testmail.example. The longitudinal medical file is recorded under MRN-83000159. A further review was recommended.",
+    "entities": {
+      "PERSON": "Shaurya D. Kulkarni",
+      "PHONE": "+91 800 000 0159",
+      "EMAIL": "shaurya.kulkarni159@testmail.example",
+      "MRN": "MRN-83000159"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Atharv D. Bhat discussed ongoing care for acute bronchitis. The clinic verified the telephone contact as +91 800 000 0160 and the electronic contact as atharv.bhat160@testmail.example. The longitudinal medical file is recorded under MRN-83000160. A further review was recommended.",
+    "entities": {
+      "PERSON": "Atharv D. Bhat",
+      "PHONE": "+91 800 000 0160",
+      "EMAIL": "atharv.bhat160@testmail.example",
+      "MRN": "MRN-83000160"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Dhruv D. Thomas discussed ongoing care for viral gastroenteritis. The clinic verified the telephone contact as +91 800 000 0161 and the electronic contact as dhruv.thomas161@testmail.example. The longitudinal medical file is recorded under MRN-83000161. A further review was recommended.",
+    "entities": {
+      "PERSON": "Dhruv D. Thomas",
+      "PHONE": "+91 800 000 0161",
+      "EMAIL": "dhruv.thomas161@testmail.example",
+      "MRN": "MRN-83000161"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Kabir D. Gupta discussed ongoing care for a mild respiratory infection. The clinic verified the telephone contact as +91 800 000 0162 and the electronic contact as kabir.gupta162@testmail.example. The longitudinal medical file is recorded under MRN-83000162. A further review was recommended.",
+    "entities": {
+      "PERSON": "Kabir D. Gupta",
+      "PHONE": "+91 800 000 0162",
+      "EMAIL": "kabir.gupta162@testmail.example",
+      "MRN": "MRN-83000162"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ritvik D. Hegde discussed ongoing care for dehydration. The clinic verified the telephone contact as +91 800 000 0163 and the electronic contact as ritvik.hegde163@testmail.example. The longitudinal medical file is recorded under MRN-83000163. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ritvik D. Hegde",
+      "PHONE": "+91 800 000 0163",
+      "EMAIL": "ritvik.hegde163@testmail.example",
+      "MRN": "MRN-83000163"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Anirudh D. Roy discussed ongoing care for seasonal allergic rhinitis. The clinic verified the telephone contact as +91 800 000 0164 and the electronic contact as anirudh.roy164@testmail.example. The longitudinal medical file is recorded under MRN-83000164. A further review was recommended.",
+    "entities": {
+      "PERSON": "Anirudh D. Roy",
+      "PHONE": "+91 800 000 0164",
+      "EMAIL": "anirudh.roy164@testmail.example",
+      "MRN": "MRN-83000164"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Diya D. Kapoor discussed ongoing care for a urinary tract infection. The clinic verified the telephone contact as +91 800 000 0165 and the electronic contact as diya.kapoor165@testmail.example. The longitudinal medical file is recorded under MRN-83000165. A further review was recommended.",
+    "entities": {
+      "PERSON": "Diya D. Kapoor",
+      "PHONE": "+91 800 000 0165",
+      "EMAIL": "diya.kapoor165@testmail.example",
+      "MRN": "MRN-83000165"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ananya D. Das discussed ongoing care for migraine. The clinic verified the telephone contact as +91 800 000 0166 and the electronic contact as ananya.das166@testmail.example. The longitudinal medical file is recorded under MRN-83000166. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ananya D. Das",
+      "PHONE": "+91 800 000 0166",
+      "EMAIL": "ananya.das166@testmail.example",
+      "MRN": "MRN-83000166"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Aadhya D. Sinha discussed ongoing care for muscle strain. The clinic verified the telephone contact as +91 800 000 0167 and the electronic contact as aadhya.sinha167@testmail.example. The longitudinal medical file is recorded under MRN-83000167. A further review was recommended.",
+    "entities": {
+      "PERSON": "Aadhya D. Sinha",
+      "PHONE": "+91 800 000 0167",
+      "EMAIL": "aadhya.sinha167@testmail.example",
+      "MRN": "MRN-83000167"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Saanvi D. Naidu discussed ongoing care for hypertension review. The clinic verified the telephone contact as +91 800 000 0168 and the electronic contact as saanvi.naidu168@testmail.example. The longitudinal medical file is recorded under MRN-83000168. A further review was recommended.",
+    "entities": {
+      "PERSON": "Saanvi D. Naidu",
+      "PHONE": "+91 800 000 0168",
+      "EMAIL": "saanvi.naidu168@testmail.example",
+      "MRN": "MRN-83000168"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Pari D. Mohan discussed ongoing care for type two diabetes review. The clinic verified the telephone contact as +91 800 000 0169 and the electronic contact as pari.mohan169@testmail.example. The longitudinal medical file is recorded under MRN-83000169. A further review was recommended.",
+    "entities": {
+      "PERSON": "Pari D. Mohan",
+      "PHONE": "+91 800 000 0169",
+      "EMAIL": "pari.mohan169@testmail.example",
+      "MRN": "MRN-83000169"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Myra D. Menon discussed ongoing care for acute bronchitis. The clinic verified the telephone contact as +91 800 000 0170 and the electronic contact as myra.menon170@testmail.example. The longitudinal medical file is recorded under MRN-83000170. A further review was recommended.",
+    "entities": {
+      "PERSON": "Myra D. Menon",
+      "PHONE": "+91 800 000 0170",
+      "EMAIL": "myra.menon170@testmail.example",
+      "MRN": "MRN-83000170"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ira D. Rana discussed ongoing care for viral gastroenteritis. The clinic verified the telephone contact as +91 800 000 0171 and the electronic contact as ira.rana171@testmail.example. The longitudinal medical file is recorded under MRN-83000171. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ira D. Rana",
+      "PHONE": "+91 800 000 0171",
+      "EMAIL": "ira.rana171@testmail.example",
+      "MRN": "MRN-83000171"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Aarohi D. Mehta discussed ongoing care for a mild respiratory infection. The clinic verified the telephone contact as +91 800 000 0172 and the electronic contact as aarohi.mehta172@testmail.example. The longitudinal medical file is recorded under MRN-83000172. A further review was recommended.",
+    "entities": {
+      "PERSON": "Aarohi D. Mehta",
+      "PHONE": "+91 800 000 0172",
+      "EMAIL": "aarohi.mehta172@testmail.example",
+      "MRN": "MRN-83000172"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Anika D. Verma discussed ongoing care for dehydration. The clinic verified the telephone contact as +91 800 000 0173 and the electronic contact as anika.verma173@testmail.example. The longitudinal medical file is recorded under MRN-83000173. A further review was recommended.",
+    "entities": {
+      "PERSON": "Anika D. Verma",
+      "PHONE": "+91 800 000 0173",
+      "EMAIL": "anika.verma173@testmail.example",
+      "MRN": "MRN-83000173"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Navya D. Chawla discussed ongoing care for seasonal allergic rhinitis. The clinic verified the telephone contact as +91 800 000 0174 and the electronic contact as navya.chawla174@testmail.example. The longitudinal medical file is recorded under MRN-83000174. A further review was recommended.",
+    "entities": {
+      "PERSON": "Navya D. Chawla",
+      "PHONE": "+91 800 000 0174",
+      "EMAIL": "navya.chawla174@testmail.example",
+      "MRN": "MRN-83000174"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Meera D. Agarwal discussed ongoing care for a urinary tract infection. The clinic verified the telephone contact as +91 800 000 0175 and the electronic contact as meera.agarwal175@testmail.example. The longitudinal medical file is recorded under MRN-83000175. A further review was recommended.",
+    "entities": {
+      "PERSON": "Meera D. Agarwal",
+      "PHONE": "+91 800 000 0175",
+      "EMAIL": "meera.agarwal175@testmail.example",
+      "MRN": "MRN-83000175"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Tara D. Jain discussed ongoing care for migraine. The clinic verified the telephone contact as +91 800 000 0176 and the electronic contact as tara.jain176@testmail.example. The longitudinal medical file is recorded under MRN-83000176. A further review was recommended.",
+    "entities": {
+      "PERSON": "Tara D. Jain",
+      "PHONE": "+91 800 000 0176",
+      "EMAIL": "tara.jain176@testmail.example",
+      "MRN": "MRN-83000176"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Kiara D. Chatterjee discussed ongoing care for muscle strain. The clinic verified the telephone contact as +91 800 000 0177 and the electronic contact as kiara.chatterjee177@testmail.example. The longitudinal medical file is recorded under MRN-83000177. A further review was recommended.",
+    "entities": {
+      "PERSON": "Kiara D. Chatterjee",
+      "PHONE": "+91 800 000 0177",
+      "EMAIL": "kiara.chatterjee177@testmail.example",
+      "MRN": "MRN-83000177"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Riya D. Chopra discussed ongoing care for hypertension review. The clinic verified the telephone contact as +91 800 000 0178 and the electronic contact as riya.chopra178@testmail.example. The longitudinal medical file is recorded under MRN-83000178. A further review was recommended.",
+    "entities": {
+      "PERSON": "Riya D. Chopra",
+      "PHONE": "+91 800 000 0178",
+      "EMAIL": "riya.chopra178@testmail.example",
+      "MRN": "MRN-83000178"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Ishita D. Nair discussed ongoing care for type two diabetes review. The clinic verified the telephone contact as +91 800 000 0179 and the electronic contact as ishita.nair179@testmail.example. The longitudinal medical file is recorded under MRN-83000179. A further review was recommended.",
+    "entities": {
+      "PERSON": "Ishita D. Nair",
+      "PHONE": "+91 800 000 0179",
+      "EMAIL": "ishita.nair179@testmail.example",
+      "MRN": "MRN-83000179"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Kavya D. Rao discussed ongoing care for acute bronchitis. The clinic verified the telephone contact as +91 800 000 0180 and the electronic contact as kavya.rao180@testmail.example. The longitudinal medical file is recorded under MRN-83000180. A further review was recommended.",
+    "entities": {
+      "PERSON": "Kavya D. Rao",
+      "PHONE": "+91 800 000 0180",
+      "EMAIL": "kavya.rao180@testmail.example",
+      "MRN": "MRN-83000180"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Nisha D. Mishra discussed ongoing care for viral gastroenteritis. The clinic verified the telephone contact as +91 800 000 0181 and the electronic contact as nisha.mishra181@testmail.example. The longitudinal medical file is recorded under MRN-83000181. A further review was recommended.",
+    "entities": {
+      "PERSON": "Nisha D. Mishra",
+      "PHONE": "+91 800 000 0181",
+      "EMAIL": "nisha.mishra181@testmail.example",
+      "MRN": "MRN-83000181"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Tanvi D. Khanna discussed ongoing care for a mild respiratory infection. The clinic verified the telephone contact as +91 800 000 0182 and the electronic contact as tanvi.khanna182@testmail.example. The longitudinal medical file is recorded under MRN-83000182. A further review was recommended.",
+    "entities": {
+      "PERSON": "Tanvi D. Khanna",
+      "PHONE": "+91 800 000 0182",
+      "EMAIL": "tanvi.khanna182@testmail.example",
+      "MRN": "MRN-83000182"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Pooja D. Prasad discussed ongoing care for dehydration. The clinic verified the telephone contact as +91 800 000 0183 and the electronic contact as pooja.prasad183@testmail.example. The longitudinal medical file is recorded under MRN-83000183. A further review was recommended.",
+    "entities": {
+      "PERSON": "Pooja D. Prasad",
+      "PHONE": "+91 800 000 0183",
+      "EMAIL": "pooja.prasad183@testmail.example",
+      "MRN": "MRN-83000183"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Shruti D. Banerjee discussed ongoing care for seasonal allergic rhinitis. The clinic verified the telephone contact as +91 800 000 0184 and the electronic contact as shruti.banerjee184@testmail.example. The longitudinal medical file is recorded under MRN-83000184. A further review was recommended.",
+    "entities": {
+      "PERSON": "Shruti D. Banerjee",
+      "PHONE": "+91 800 000 0184",
+      "EMAIL": "shruti.banerjee184@testmail.example",
+      "MRN": "MRN-83000184"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Dev D. Singh discussed ongoing care for a urinary tract infection. The clinic verified the telephone contact as +91 800 000 0185 and the electronic contact as dev.singh185@testmail.example. The longitudinal medical file is recorded under MRN-83000185. A further review was recommended.",
+    "entities": {
+      "PERSON": "Dev D. Singh",
+      "PHONE": "+91 800 000 0185",
+      "EMAIL": "dev.singh185@testmail.example",
+      "MRN": "MRN-83000185"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Karthik D. Reddy discussed ongoing care for migraine. The clinic verified the telephone contact as +91 800 000 0186 and the electronic contact as karthik.reddy186@testmail.example. The longitudinal medical file is recorded under MRN-83000186. A further review was recommended.",
+    "entities": {
+      "PERSON": "Karthik D. Reddy",
+      "PHONE": "+91 800 000 0186",
+      "EMAIL": "karthik.reddy186@testmail.example",
+      "MRN": "MRN-83000186"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Nikhil D. Patel discussed ongoing care for muscle strain. The clinic verified the telephone contact as +91 800 000 0187 and the electronic contact as nikhil.patel187@testmail.example. The longitudinal medical file is recorded under MRN-83000187. A further review was recommended.",
+    "entities": {
+      "PERSON": "Nikhil D. Patel",
+      "PHONE": "+91 800 000 0187",
+      "EMAIL": "nikhil.patel187@testmail.example",
+      "MRN": "MRN-83000187"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Rahul D. Desai discussed ongoing care for hypertension review. The clinic verified the telephone contact as +91 800 000 0188 and the electronic contact as rahul.desai188@testmail.example. The longitudinal medical file is recorded under MRN-83000188. A further review was recommended.",
+    "entities": {
+      "PERSON": "Rahul D. Desai",
+      "PHONE": "+91 800 000 0188",
+      "EMAIL": "rahul.desai188@testmail.example",
+      "MRN": "MRN-83000188"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Siddharth D. Chandra discussed ongoing care for type two diabetes review. The clinic verified the telephone contact as +91 800 000 0189 and the electronic contact as siddharth.chandra189@testmail.example. The longitudinal medical file is recorded under MRN-83000189. A further review was recommended.",
+    "entities": {
+      "PERSON": "Siddharth D. Chandra",
+      "PHONE": "+91 800 000 0189",
+      "EMAIL": "siddharth.chandra189@testmail.example",
+      "MRN": "MRN-83000189"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Varun D. Saxena discussed ongoing care for acute bronchitis. The clinic verified the telephone contact as +91 800 000 0190 and the electronic contact as varun.saxena190@testmail.example. The longitudinal medical file is recorded under MRN-83000190. A further review was recommended.",
+    "entities": {
+      "PERSON": "Varun D. Saxena",
+      "PHONE": "+91 800 000 0190",
+      "EMAIL": "varun.saxena190@testmail.example",
+      "MRN": "MRN-83000190"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Rohan D. Mukherjee discussed ongoing care for viral gastroenteritis. The clinic verified the telephone contact as +91 800 000 0191 and the electronic contact as rohan.mukherjee191@testmail.example. The longitudinal medical file is recorded under MRN-83000191. A further review was recommended.",
+    "entities": {
+      "PERSON": "Rohan D. Mukherjee",
+      "PHONE": "+91 800 000 0191",
+      "EMAIL": "rohan.mukherjee191@testmail.example",
+      "MRN": "MRN-83000191"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Manav D. Kumar discussed ongoing care for a mild respiratory infection. The clinic verified the telephone contact as +91 800 000 0192 and the electronic contact as manav.kumar192@testmail.example. The longitudinal medical file is recorded under MRN-83000192. A further review was recommended.",
+    "entities": {
+      "PERSON": "Manav D. Kumar",
+      "PHONE": "+91 800 000 0192",
+      "EMAIL": "manav.kumar192@testmail.example",
+      "MRN": "MRN-83000192"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Pranav D. Iyer discussed ongoing care for dehydration. The clinic verified the telephone contact as +91 800 000 0193 and the electronic contact as pranav.iyer193@testmail.example. The longitudinal medical file is recorded under MRN-83000193. A further review was recommended.",
+    "entities": {
+      "PERSON": "Pranav D. Iyer",
+      "PHONE": "+91 800 000 0193",
+      "EMAIL": "pranav.iyer193@testmail.example",
+      "MRN": "MRN-83000193"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Harish D. Joshi discussed ongoing care for seasonal allergic rhinitis. The clinic verified the telephone contact as +91 800 000 0194 and the electronic contact as harish.joshi194@testmail.example. The longitudinal medical file is recorded under MRN-83000194. A further review was recommended.",
+    "entities": {
+      "PERSON": "Harish D. Joshi",
+      "PHONE": "+91 800 000 0194",
+      "EMAIL": "harish.joshi194@testmail.example",
+      "MRN": "MRN-83000194"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Gauri D. Malhotra discussed ongoing care for a urinary tract infection. The clinic verified the telephone contact as +91 800 000 0195 and the electronic contact as gauri.malhotra195@testmail.example. The longitudinal medical file is recorded under MRN-83000195. A further review was recommended.",
+    "entities": {
+      "PERSON": "Gauri D. Malhotra",
+      "PHONE": "+91 800 000 0195",
+      "EMAIL": "gauri.malhotra195@testmail.example",
+      "MRN": "MRN-83000195"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Lavanya D. Ghosh discussed ongoing care for migraine. The clinic verified the telephone contact as +91 800 000 0196 and the electronic contact as lavanya.ghosh196@testmail.example. The longitudinal medical file is recorded under MRN-83000196. A further review was recommended.",
+    "entities": {
+      "PERSON": "Lavanya D. Ghosh",
+      "PHONE": "+91 800 000 0196",
+      "EMAIL": "lavanya.ghosh196@testmail.example",
+      "MRN": "MRN-83000196"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Madhuri D. Dutta discussed ongoing care for muscle strain. The clinic verified the telephone contact as +91 800 000 0197 and the electronic contact as madhuri.dutta197@testmail.example. The longitudinal medical file is recorded under MRN-83000197. A further review was recommended.",
+    "entities": {
+      "PERSON": "Madhuri D. Dutta",
+      "PHONE": "+91 800 000 0197",
+      "EMAIL": "madhuri.dutta197@testmail.example",
+      "MRN": "MRN-83000197"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Sneha D. Krishnan discussed ongoing care for hypertension review. The clinic verified the telephone contact as +91 800 000 0198 and the electronic contact as sneha.krishnan198@testmail.example. The longitudinal medical file is recorded under MRN-83000198. A further review was recommended.",
+    "entities": {
+      "PERSON": "Sneha D. Krishnan",
+      "PHONE": "+91 800 000 0198",
+      "EMAIL": "sneha.krishnan198@testmail.example",
+      "MRN": "MRN-83000198"
+    },
+    "template_id": 11
+  },
+  {
+    "text": "FOLLOW-UP CLINIC ENTRY\nAt today's review, Trisha D. Sethi discussed ongoing care for type two diabetes review. The clinic verified the telephone contact as +91 800 000 0199 and the electronic contact as trisha.sethi199@testmail.example. The longitudinal medical file is recorded under MRN-83000199. A further review was recommended.",
+    "entities": {
+      "PERSON": "Trisha D. Sethi",
+      "PHONE": "+91 800 000 0199",
+      "EMAIL": "trisha.sethi199@testmail.example",
+      "MRN": "MRN-83000199"
+    },
+    "template_id": 11
+  }
+]
