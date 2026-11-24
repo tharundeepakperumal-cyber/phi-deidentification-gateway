@@ -4,9 +4,83 @@ from unittest.mock import patch
 from src.model_inference import (
     deidentify_with_model,
     resolve_overlapping_entities,
+    _is_mrn_field_label_prediction,
 )
 
 class TestEntityResolution(unittest.TestCase):
+    def test_mrn_field_label_is_not_detected_as_identifier(self):
+        text = "MRN: MRN-123456"
+
+        entity = {
+            "start": 0,
+            "end": 3,
+            "label": "MRN",
+            "text": "MRN",
+            "priority": 1,
+        }
+
+        self.assertTrue(
+            _is_mrn_field_label_prediction(text, entity)
+        )
+
+    def test_actual_mrn_value_is_not_filtered(self):
+        text = "MRN: MRN-123456"
+
+        entity = {
+            "start": 5,
+            "end": 15,
+            "label": "MRN",
+            "text": "MRN-123456",
+            "priority": 2,
+        }
+
+        self.assertFalse(
+            _is_mrn_field_label_prediction(text, entity)
+        )
+
+    def test_mrn_without_field_label_is_not_filtered(self):
+        for value in ("MRN123456", "MRN-123456"):
+            entity = {
+                "start": 0,
+                "end": len(value),
+                "label": "MRN",
+                "text": value,
+                "priority": 2,
+            }
+
+            with self.subTest(value=value):
+                self.assertFalse(
+                    _is_mrn_field_label_prediction(value, entity)
+                )
+
+    def test_email_prediction_on_mrn_label_is_filtered(self):
+        text = "MRN: MRN-123456"
+        entity = {
+            "start": 2,
+            "end": 3,
+            "label": "EMAIL",
+            "text": "N",
+            "priority": 1,
+        }
+
+        self.assertTrue(
+            _is_mrn_field_label_prediction(text, entity)
+        )
+
+    def test_actual_email_is_not_filtered(self):
+        text = "MRN: MRN-123456 Contact: alex@example.com"
+        start = text.index("alex@example.com")
+        entity = {
+            "start": start,
+            "end": start + len("alex@example.com"),
+            "label": "EMAIL",
+            "text": "alex@example.com",
+            "priority": 1,
+        }
+
+        self.assertFalse(
+            _is_mrn_field_label_prediction(text, entity)
+        )
 
     def test_regex_entity_overrides_model_prediction(self):
         entities = [

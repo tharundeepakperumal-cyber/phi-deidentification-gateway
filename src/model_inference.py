@@ -49,6 +49,23 @@ CORRECTION_PATTERNS = {
         re.IGNORECASE,
     ),
 }
+def _is_mrn_field_label_prediction(text, entity):
+    """Reject model predictions overlapping an MRN field label."""
+
+    entity_start = entity["start"]
+    entity_end = entity["end"]
+
+    for match in re.finditer(r"\bMRN\s*:", text, re.IGNORECASE):
+        overlaps_label = (
+            entity_start < match.end()
+            and entity_end > match.start()
+        )
+
+        if overlaps_label:
+            return True
+
+    return False
+
 
 
 def load_model():
@@ -215,16 +232,11 @@ def _extract_entities_unlocked(text):
 
         flush()
 
-    # Remove invalid EMAIL predictions from the model.
+    # Remove model predictions that identify an MRN field label.
     entities = [
         entity
         for entity in entities
-        if (
-            entity["label"] != "EMAIL"
-            or CORRECTION_PATTERNS["EMAIL"].fullmatch(
-                entity["text"]
-            )
-        )
+        if not _is_mrn_field_label_prediction(text, entity)
     ]
 
     # Add regex-based corrections for common identifiers.
