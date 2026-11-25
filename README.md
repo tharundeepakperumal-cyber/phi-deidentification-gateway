@@ -75,7 +75,7 @@ The current synthetic dataset contains 1,000 clinical notes.
 
 Template-aware model validation F1: 0.999.
 
-The automated test suite contains 17 tests.
+The automated test suite has 32 passing tests and 2 passing subtests.
 
 These results are from synthetic development data and do not establish production clinical accuracy.
 
@@ -90,3 +90,50 @@ These results are from synthetic development data and do not establish productio
 ## Disclaimer
 
 This is a development prototype and is not independently validated or certified for production clinical use or regulatory compliance.
+
+## Docker Deployment
+
+Build the Docker image:
+
+    docker build -t phi-deidentification-gateway:latest .
+
+Run the application:
+
+    docker run -d --name phi-gateway \
+      -p 8000:8000 \
+      -e PHI_API_KEY="your-secret-key" \
+      phi-deidentification-gateway:latest
+
+## API Endpoints
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | / | Application status |
+| GET | /health | Health check |
+| GET | /model-status | Model verification |
+| POST | /deidentify | PHI detection and masking |
+
+The de-identification endpoint requires the X-API-Key header.
+
+## Verified Tests
+
+- 32 tests passed and 2 subtests passed.
+- Docker image built successfully.
+- Docker health endpoint returned HTTP 200.
+- Model files verified inside Docker.
+- PERSON, MRN, PHONE and EMAIL detection verified.
+- Missing API key correctly rejected with HTTP 401.
+
+## Performance
+
+FP32 CPU: 89.45 records/second.
+FP32 MPS: 194.74 records/second.
+INT8 CPU: 19.50 records/second.
+
+FP32 remains the selected model configuration.
+
+Performance and accuracy evaluations use synthetic clinical data. Independent clinical validation is still required before production use.
+
+## Disclaimer
+
+This is a development prototype, not a certified production clinical system.
